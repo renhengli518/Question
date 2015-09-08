@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*圈组微博 */
+.w870{width:870px;margin:0 auto;}
+.edit_wb_frame{width:868px;margin:0;padding:0;margin-top:10px;height:160px;border:1px solid #4dadc6;}
+.e_xpression,.i_mage,.a_udio,.send_time{background-image: url(/public/img/second_state/wb_edit_img.png);background-repeat: no-repeat;float:left;line-height: 23px;cursor:pointer;margin-top:10px;margin-right:25px;padding-left:32px;}
+.e_xpression{background-position: 0 0;}
+.i_mage{background-position: 0 -38px;}
+.a_udio{background-position: 0 -72px;}
+.send_time{background-position: 0 -106px;}
+.check_box_l{display: inline-block;margin-right:5px;height:18px;width:18px;text-align:center;cursor: pointer;border:1px solid #ff6000;line-height: 20px;}
+.check_box_l .c_heck{color:#ff6000;font-weight: bold;display:none;}
+.show_i .c_heck{display:block;}
+.btnOrange02{background:#ff6000;padding:3px 40px;font-size:20px;margin-top:-10px;}
+.tit_qbdt{margin:0 10px;}
+.seach_wb{margin-top:5px;position: relative;}
+.wb_seach{float:right;font-family:"微软雅黑";color:#959595;background-color:#d7d7d7;height:26px;width:245px;border-radius: 3px;border:none;padding:0 25px 0 5px;}
+.btn_seach{position: absolute;right:8px;top:4px;cursor:pointer;display:inline-block;width:20px;height:20px;background-image: url(/public/img/workplace/magnify.png);background-repeat: no-repeat;background-position: center center;}
+.orange_c{color:#ff6000;}
+.w790{width:790px;}
+.ft22{font-size:22px;}
+.c888{color:#888;}
+.prasie{background-image: url(/public/img/second_state/wb_edit_img.png);padding-left:32px;background-repeat: no-repeat;background-position: 0 -136px;}
+.transload{background:#f2f2f2;border-radius: 5px;margin-top:5px;}
+/*班级微博,私信*/
+.w800{width:800px;margin:0 auto;}
+.weibo_nav2 li{margin-right:5px;padding:5px 15px;}
+.weibo_nav2 li a{font-size:20px;}
+.weibo_nav li a:hover,.weibo_nav li a.visited{border-bottom:2px solid #e23434;color:#e23434;font-weight:bold;}
+.letter_pp{color:#98dbee;border:1px solid #98dbee;padding:0 12px;position: relative;}
+.letter_pp i{font-size:10px;position: absolute;top:-6px;right:-6px;height:14px;color:#fff;text-align:center;line-height:12px;width:14px;border-radius: 7px;background:#d23333;}
+.letter_c{background:#98dbee;}
+.line_bottom{border-bottom:1px solid #ddd;} 
+.btn_line{display:block;text-align:center;color:#444;border:1px solid #c5c5c5;border-radius: 2px;width:96px;height:30px;line-height: 30px;}
+.position_r{position: relative;}
+.position_a{position: absolute;}
+.line_bottom span.position_a{right: 20px;top:5px;}

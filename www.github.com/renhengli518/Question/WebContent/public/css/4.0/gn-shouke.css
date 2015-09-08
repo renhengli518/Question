@@ -1,0 +1,86 @@
+
+/* CSS Document */
+.container {
+    background: url(../../img/green/mainbg.jpg) no-repeat scroll 0 0 / cover ;
+    height: 100%;
+    overflow:hidden;
+}
+.gn-onlineClass.container{background:url("../../img/main/onlineClassBg.jpg") no-repeat scroll 0 0 / cover ;}
+.wrap {
+	position:relative;
+    z-index: 10;
+    display:table-cell;
+    vertical-align:middle;
+    min-height:0;
+    padding-top:0
+}
+
+
+.footer {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.footerInner {
+    color: #999;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 30px;
+}
+.footer p {
+    display: inline-block;
+    float: right;
+    line-height:30px; margin-top:23px; color:#ad9066; margin-right:30px
+}
+.footerInner img {
+    vertical-align: middle;
+}
+.gn-logoText{display:block; margin-bottom:40px; }
+.onlineClassLogo{margin-right:50px}
+.wrap a.gn-tabA{display:inline-block; margin-right:35px; margin-top:30px; min-width:190px;padding:0 25px;height:58px; line-height:58px; line-height:58px; text-align:center;font-size:30px;color:#fff; background:#8cb246; border:1px solid #708d36; border-radius:2px}
+.wrap a.gn-tabA:hover,.wrap a.gn-tabA:active{ background:#ff9900; border-color:#ff9900}
+.gn-observerIn{width:703px;height:214px; background:url(../../img/common/observerIn.png) no-repeat center center; margin-top:80px; position:relative;}
+.gn-clientIn{background:none;background:url(../../img/common/clientIn.png) no-repeat center center;width:897px}
+.gn-verifyCode{position:relative; top:120px;left:40px; color:#fff}
+.gn-clientIn .gn-verifyCode{left:20px}
+.gn-verifyCode label{color:#de722b; font-size:28px;}
+.gn-verifyCode *{vertical-align:middle}
+.fn-observer{ position:absolute;right:60px;top:35px;font-size:26px;color:#fff}
+.gn-verifyCode label input{ display:inline-block; width:314px;height:43px; background:#a3c75b;opacity:0.6;filter:alpha(opacity=60);margin-top:-3px; margin-right:35px;border:1px solid #de722b;padding:0 10px}
+.gn-clientIn .gn-verifyCode label input{ margin-right:10px}
+.gn-verifyCode:nth-of-type(1){margin-right:20px}
+.gn-verifyCode .btn{width:127px;height:46px;background:#de722b; opacity:0.78; filer:alpha(opacity=78);color:#fff; font-size:36px;line-height:46px;padding:0}
+.gn-verifyCode .inputName{width:202px}
+.gn-verifyCode .verifyCode{width:185px}
+/*******************************会议结束******************************/
+.convinceOverWrap{text-align:center}
+.convinceOverWrap *{vetical-align:middle}
+.gn-conviceOver{font-size:48px;color:#fff;}
+.gn-conviceOver img{ margin-right:20px; margin-top:-5px}
+.convinceOverWrap .tips{font-size:24px;color:#c98032; margin-top:30px}
+.clickHere{color:#2f62f4; text-decoration:underline; display:inline-block; padding-bottom:3px}
+html,body{height:100%}
+/*******************************在线课堂*********************************/
+.shouke .container{padding-bottom:0;overflow:hidden}
+/******************** 在线课堂主讲课堂首页start ****************/
+
+.recordRight{margin-top:62px}
+.chooseClassBtn{display:block;width:406px;height:58px; border:1px solid #304619; border-radius:7px;background:#e57617;font-size:30px}
+.recordLabel{color:#fff;font-size:16px; margin-right:15px;}
+.btnReset{background:#e57617;width:62px;line-height:1;height:25px; border:1px solid #304619; border-radius:3px;position:absolute; padding:2px 10px}
+.recordList li{ list-style:none; width:49%; float:left; margin-top:30px;}
+.recordList li a{display:block; height:30px;line-height:30px;padding-left:50px; color:#fff;font-size:25px;}
+.recordList li:nth-of-type(1) a{ background:url(../../img/common/shouke.png) no-repeat 0 0  }
+.recordList li:nth-of-type(2) a{ background:url(../../img/common/shouke.png) no-repeat 0 -38px; margin-left:20px}
+.recordList li:nth-of-type(3) a{ background:url(../../img/common/shouke.png) no-repeat 0 -81px}
+.recordList li:nth-of-type(4) a{ background:url(../../img/common/shouke.png) no-repeat 0 -120px;margin-left:20px}
+.gn-recordSet{ font-size:16px;}
+.recordSetSure{display:block; margin:0 auto; background:#e47617; border:1px solid #666; width:122px;height:38px; line-height:38px;font-size:16px; border-radius:3px}
+.gn-recordSet li label.text{min-width:80px; width:80px;text-align:left;color:#72a53e;}
+.gn-recordSet li .cont label{margin-right:10px}
+.gn-recordSet li .cont .btnGreen{background:#72a53e}
+/******************** 在线课堂主讲课堂首页 end ****************/

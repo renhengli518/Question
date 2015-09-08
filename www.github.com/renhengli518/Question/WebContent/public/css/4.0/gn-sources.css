@@ -1,0 +1,33 @@
+.resourceList{padding:10px 10px 25px 35px}
+.resourceList dl{border-bottom:none}
+.resourceList dl h4 a{color:#666}
+.resourceList dt{margin-right:20px}
+.resourceList dd p{height:27px; line-height:27px}
+.resourceList dd label{margin-right:10px}
+.resourceList .starRate{margin-right:10px}
+.resourceList .playtimes{color:#999;font-size:12px}
+.resourceList dt img{width:178px;height:100px; margin-top:5px}
+.uploadFile{height:34px;line-height:34px;padding-top:6px;width:1200px; margin:10px auto;}
+.resourceList .operator a{display:inline-block;color:#444;min-width:60px;height:30px;line-height:30px; margin-right:10px; padding-left:26px; }
+.resourceList .operator a.gn-public{background:url(../../img/common/unlocked.png) no-repeat left center}
+.resourceList .operator a.gn-private{background:url(../../img/common/locked.png) no-repeat left center}
+.resourceList .operator a.gn-push{background:url(../../img/common/gn-file.png) no-repeat left center}
+.resourceList .operator a.gn-recommendToHomepage{background:url(../../img/common/gn-recommendTo.png) no-repeat left center}
+.resourceList .operator .gn-pushed{color:#26709a}
+.gn-resourcesHandle{width:90px;min-height:30px; overflow:hidden; line-height:30px}
+.gn-resourcesHandle.clicked{border:1px solid #d8d8d8}
+.gn-resourcesHandle *{display:block;width:90px;height:30px;color:#666666;text-align:center}
+.gn-resourcesHandle .gn-selBorder{color:#26709a }
+.gn-resourcesHandle .gn-down{background:url(../../img/common/gn-selDown.png) no-repeat 70px center;}
+.gn-resourcesHandle .gn-up{border-bottom:1px solid #d8d8d8;color:#666;background:url(../../img/common/gn-selUp.png)  no-repeat 80px center;}
+.gn-resourcesHandle .gn-aWrap{min-height:30px;height:auto;display:none;}
+.gn-aWrap a:hover{background:#f4f8fb; color:#2dbe60}
+.gn-crumbs a{color:#666;font-size:16px}
+.gn-crumbs a:last-of-type{ color:#222}
+/*章节知识点切换*/
+.gn-sourceTabs a{border:none}
+.gn-sourceTabs a.gn-TopArrowSelected{border-right:none}
+.gn-sourceTabs a:first-of-type{border-right:1px solid #ddd}
+.gn-subSrcChapter li:hover{font-weight:normal}
+/*讲默认样式改为浅蓝色*/
+.gn-sourcesLeft .gn-srcTitile{color:#666}

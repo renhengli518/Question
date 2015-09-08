@@ -1,0 +1,71 @@
+body{ background:#fff}
+.sectionLeft{width:910px; margin-right:20px}
+.gn-titleBar *{vertical-align:middle}
+.gn-title-1 {
+    border-bottom: 2px solid #f7ab00;
+   }
+/*搜索条件处样式*/
+.searchWrap{height:30px;line-height:30px; margin-bottom:40px }
+.searchWrap *{vertical-align:middle}
+.searchBtn{border-radius:0;background:#2dbe60}
+.searchWrap .searchSel{display:inline-block; width:105px;height:29px; border:1px solid #dfdfdf; margin-right:15px;}
+.searchWrap .searchInput{display:inline-block; width:383px;height:22px; border:1px solid #dfdfdf}
+/*end*/
+.totalResultNum{height:30px; line-height:30px;color:#888;}
+.resultNum{color:#2dbe60; margin:0 5px}
+.videoList{width:887px;border:1px solid #ddd; padding:0px 10px 20px 11px;}
+.videoList li{width:202px;height:208px; float:left; margin:20px 10px 15px 9px; position:relative;}
+.videoList li *{display:block;}
+.videoList li a{color:#555;font-size:12px;display:block;width:100%;height:100%; position:relative}
+.videoList img.videoPic{width:202px;height:114px;}
+.videoList .videoMask{ position:absolute; top:0;left:0; width:202px;height:114px; background:url(../../img/workplace/play.png) no-repeat center center;background-color:rgba(0,0,0,0.4);background-color:#000\9;filter:alpha(opacity=40) }
+.videoList .videoTime{position:absolute;top:91px;right:10px;color:#fff;}
+.videoList .videoTitle{font-size:14px;color:#7f542e;height:26px; line-height:26px; border-bottom:1px solid #ddd; margin-top:7px}
+.videoList .detail{ height:20px;line-height:20px}
+.videoList .searchBtn{ border-radius:none; background:#2dbe60}
+/*sectionRight*/
+.sectionRight{width:230px; padding:19px 19px 0 19px;overflow:hidden; border:1px solid #ddd}
+.hotVideo{ margin-top:14px}
+.hotVideo li{ border-bottom:1px solid #ddd; padding:14px 0px}
+.hotVideo li:last-of-type{ border-bottom:0}
+.hotVideo .hotPic{width:98px;height:55px; margin-right:9px}
+.hotVideo .hotVideoDec{color:#555;font-size:12px; line-height:20px}
+.hotVideoDec *{display:block}
+.hotVideo .hotVideoTitle{color:#7f542e;font-size:14px}
+/*文档搜索页*/
+.textList{padding:10px;line-height:28px}
+.textList dl{padding-left:10px;}
+.textList dl:last-of-type{border-bottom:none}
+.textList dl:hover{background:#edf5f7}
+.textList .textPic{width:192px; height:119px}
+.textList .textTitle a{display:block;height:30px;line-height:30px; margin-bottom:10px;color:#7f542e}
+.textList dd b{color:#7f542e;font-size:18x}
+/*资讯搜索*/
+.infoListWrap{border:1px solid #ddd;padding-left:35px;padding-right:35px;padding-bottom:30px}
+.totalResultNum .infoSel{display:inline-block; width:155px; margin-right:5px}
+.infoListWrap .totalResultNum{margin:20px 0 10px}
+.gn-titleBar{font-size:22px;line-height:50px;height:50px}
+.gn-title-1 {border-bottom: 2px solid #f7ab00 !important;}
+.gn-titleBar .InfoMore{font-size:16px;color:#333;position:absolute;right:0;bottom:-3px}
+.gn-titleBar .InfoMore a{font-size:16px;color:#333;}
+.infoList{ margin-top:24px}
+.infoList:firt-of-type{ margin-top:0}
+.infoList li{border-bottom:1px dotted #ccc;padding:10px 0}
+.infoList .infoTitle{display:block; font-size:20px;color:#999; line-height:40px; min-height:40px}
+.infoList  .infoContent{display:block; font-size:14px; color:#444; line-height:20px; text-indent:2em}
+.hotInfoWrap{ border:none;padding:0}
+.hotInfoSections{border:1px solid #ddd; margin-top:24px;padding:10px;}
+.hotInfoWrap .hotInfo{margin-top:10px}
+.hotInfoWrap .hotInfo li{list-style-position:inside; list-style-type:square;width:247px;height:35px;line-height:35px}
+.hotInfoWrap .hotInfo li:hover{background:#edf5f7}
+.hotInfo li *{vertical-align:middle;}
+.hotInfo li a{display:inline-block;width:210px;white-space:nowrap;color:#444;}
+/*搜索资讯页右侧宽度调整*/
+.hotInfoWrap2{ border:none;padding:0;width:258px;}
+.hotInfoSections2{border:1px solid #ddd; margin-top:24px;padding:10px;}
+.hotInfoWrap2 .hotInfo2{margin-top:10px}
+.hotInfoWrap2 .hotInfo2 li{list-style-position:inside; list-style-type:square;width:247px;height:35px;line-height:35px}
+.hotInfoWrap2 .hotInfo2 li:hover{background:#edf5f7}
+.hotInfo2 li *{vertical-align:middle;}
+.hotInfo2 li a{display:inline-block;width:210px;white-space:nowrap;color:#444}
+.top_no_m{ margin-top:0}

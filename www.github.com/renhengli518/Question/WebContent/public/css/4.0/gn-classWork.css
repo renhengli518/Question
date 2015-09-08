@@ -1,0 +1,36 @@
+.container{background:none; margin-top:60px}
+.borderBox{background:#fff}
+.gn-SortBoxSel{width:150px;height:25px;line-height:25px; border:1px solid #dfdfdf;}
+.gn-tablePadding{padding:15px 15px 50px 15px}
+.tableBox .gn-classWorkEdit{color:#34a150}
+.gn-upload{padding:2px 10px;width:85px;height:27px}
+.gn-paddingSearchBox{padding:15px 30px 20px 15px;position:relative}
+.gn-title-1{ border-bottom:2px solid #2dbe60;color:#333;height:50px; line-height:50px}
+/*上传作业区*/
+#uploadOrClose{height:30px;line-height:30px}
+.gn-uploadWrap{width:1198px;padding:0; padding-bottom:50px;text-align:center}
+.gradeDisciplines{line-height:1.8;padding-top:5px}
+#uploadInfoBox{padding:0 0 25px 18px; width:1180px; background:#fff;}
+#uploadInfoBox li{width:159px;height:223px; border:2px solid #c4ccd3;float:left; margin:30px 15px 15px 15px; padding:0; position:relative;}
+#uploadInfoBox .testImg{display:block;width:100%;height:100%;}
+#uploadInfoBox .mark{display:block;width:150px;padding-left:5px; height:23px;line-height:23px;;position:absolute;bottom:0;left:2px;background:rgba(0,0,0,0.7);background-color:#000\9; filter:alpha(opacity=70);color:#fff;}
+#uploadInfoBox .gn-fileDel{display:block;position:absolute;display:none;buttom:0;right:0;width:23px;height:23px;bottom:0;background:url(../../img/common/uploadDel.png) no-repeat center center}
+#uploadInfoBox .mark:hover .gn-fileDel{display:block}
+#uploadInfoBox .readStat{display:block; position: absolute;right:0;top:0;width:53px;height:53px;}
+#uploadInfoBox .readed{background-image: url(../../img/common/classworkReaded.png)}
+#uploadInfoBox .progressBox{width:0;min-height:20px;line-height:20px;position:absolute;top:50%; margin-top:-10px;text-align:center; color:#fff;background:#2dbe61;left:0;}
+#uploadInfoBox .changeName{position: absolute;width:159px;bottom:-30px; height:20px; line-height:20px;  left:0; text-align:center;color:#333;font-size:12px}
+.changeName input{display:block;width:159px;}
+.gn-sure{display:block;background:#4dadc6;margin:0 auto;margin-top:40px;display:none}
+.gn-close{display:block;position:absolute;right:-20px;display:none;top:0;width:20px;height:23px; background:url(../../img/common/uploadDel.png) no-repeat center center}
+
+/* 作业批改 */
+.fullScreen,.fullScreen body{height:100%;overflow:hidden;position:relative;}
+.showClassWork{position:absolute;top:0;left:0;width:100%;height:100%;visibility:hidden;background:#fff;}
+.fullScreen .showClassWork{visibility:visible;}
+.showTop{height:32px;}
+.showClassWork .showBox,.showClassWork .showCont{height:100%;}
+.showCont{margin:0 80px;}
+.showBox .miniPageNavi{position:absolute;width:100%;top:100px;}
+.showBox .miniPageNavi .page_prev{position:absolute;left:0;}
+.showBox .miniPageNavi .page_next{position:absolute;right:0;}

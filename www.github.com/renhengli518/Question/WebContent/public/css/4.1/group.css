@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* 群组 */
+/*logo头部*/
+.wh120{width:120px;height:120px;}
+.h130{height:130px;}
+.h5_tit{font-size:22px;font-weight:normal;float:right;width:1020px;}
+.simple_a{float:right;width:1020px;color:#888;height:46px;overflow:hidden;word-break:break-all;}
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+/*微博首页导航*/
+.weibo_nav li{float:left;}
+.weibo_nav li a{float:left;font-size:18px;color:#444;padding:5px 15px;margin-right:5px;}
+.weibo_nav li a:hover,.weibo_nav li a.visited{border-bottom:2px solid #2dbe60;color:#2dbe60;font-weight:bold;}
+/*微博首页*/
+.w910{width:910px;}
+.w270{width: 270px;}
+.h_black{height:504px;}
+.module{border:1px solid #ddd;background:#fff;padding:10px 12px;}
+.green_line_t{border-top:2px solid #2dbe60;}
+.per_info label{display: block;line-height: 28px;}
+.mlr12{display:inline-block;line-height: 28px;}
+.wb_r_tit{font-size:22px;font-weight:normal;line-height: 36px;padding:15px 10px 10px;}
+.quotes_g{height:21px;width:4px;background:#2dbe60;margin-right:5px;margin-top:8px;float:left;}
+a.green_m{color:#2dbe60;font-size:18px;font-weight:normal;}
+.mlr6{display:inline-block;line-height: 20px;}
+.wb_visitors li{float:left;width: 73px;margin:0 4px;}
+.wb_visitors li span{display: inline-block;width:73px;text-align: center;margin:0 0 5px;overflow: hidden;word-break:break-all;white-space: nowrap;}
+.active_memb li{display:inline-block;line-height:20px;margin:3px 0;}
+.active_memb li img{float:left;}
+.active_memb li span,.active_memb li label{float:right;margin-left:10px;width:154px;overflow: hidden;word-break:break-all;white-space: nowrap;}
+.ft16,.active_memb li span,.locat_bar,.searchWrap{font-size:16px;}
+.active_memb li i,.group_list_i li i,i{font-style: normal;}
+.statis{line-height: 36px;}
+.statis li{padding-left:10px;}
+.statis li:hover{background:#f4f8fb;}
+/*圈组成员列表*/
+.ft18,.category_tit,.group_list_i span{font-size:18px;}
+.category_tit{color:#444;color:#444;padding:0 15px;background:#f6f6f6;line-height: 30px;margin:5px 0 15px;}
+a.Inhert{color:inherit;}
+.tit_s,.tit_s:hover{color:#444;}
+.ftw_normal{font-weight:normal;}
+.k_frame{overflow:hidden;}
+ul.wb_visitors_list,ul.wb_visitors_join{width:1220px;}
+.wb_visitors_list li{float:left;width: 84px;margin-right:15px;}
+.wb_visitors_list li span{display: inline-block;font-size:16px;width:84px;text-align:center;margin:0 0 5px;overflow: hidden;word-break:break-all;white-space: nowrap;}
+/*申请加入成员*/
+.join_per{width:554px;height:208px;float:left;line-height:22.3px;margin-right:14px;overflow: hidden;margin-bottom: 20px;}
+.join_per_img{height:100%;width:94px;}
+.join_per_img button{width:100%;padding:2px 12px}
+.join_per label,.l_block{display:block;}
+/*圈组教研组列表*/
+.locat_bar{padding:10px 15px;line-height:22px;}
+.base_loc{color:#777;}
+.gn-standard a{padding:0 10px;}
+.group_list_r{width: 764px;height:90px;line-height: 30px;}
+.ft14{font-size:14px;}
+.w364{width:364px;}
+.min_size{font-size:11px;font-style: normal;}
+.has_line .active_memb li,p.wb_r_tit{padding-bottom:10px; border-bottom:1px solid #ddd;}
+.has_line .active_memb li.no_line,.gn-searchCondition li.no_line{border-bottom:0;}
+/*圈组列表*/
+h2.wb_r_tit{border-bottom: 1px solid #ddd;font-size:24px;}
+.group_list_i{width:930px;}
+.group_list_i li{float:left;width:250px;overflow:hidden;padding:20px;height: 88px;background:#edf5f7;margin-right:20px;margin-top:20px;}
+.group_list_i img{float:left;}
+.group_list_i label,.group_list_i span{width:142px;float:right;;overflow: hidden;text-overflow:ellipsis;word-break:break-all;white-space: nowrap;}
+/*家长圈组列表*/
+.group_list_ii{width: 1228px;}
+.group_list_ii li{width:243px;height:110px;background-color:#fff;border:1px solid #ddd;}
+.group_list_ii .group_creat_jb{background-image: url(/public/img/second_state/group_creater_mark.png);background-position: right top;background-repeat: no-repeat;}
+.group_list_ii .group_leader_jb{background-image: url(/public/img/second_state/group_leader_mark.png);background-position: right top;background-repeat: no-repeat;}
+.glist_btn{line-height:2.5em;width:100%;display: table;}
+.glist_a1,.glist_a2,.glist_a3{display:table-cell;text-align:center;}
+.glist_a1,.glist_a2{text-align: left;}
+.glist_a3{text-align:center;text-align: right;}
+.glist_a1 a{color:#2dbe60;}
+/*教师-教研组列表*/
+.c666{color:#666;}
+.c222{color:#222;}
+/*管理圈组*/
+.module2{padding:15px 17px;margin-right:20px;height:246px;}
+.word_ofw_h{overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.max_h_120{max-height:110px;overflow:hidden;}
+.max_h_20{max-height:20px;}
+/*圈组创建圈组*/
+.red{color:#ff0000;}
+.creat_group p{overflow: hidden;}
+.close_btn_0{width: 20px;height:20px;cursor:pointer;line-height:18px;margin-top:-8px;margin-right:-8px;background:#888;color:#fff;border-radius: 10px;}
+.big_tp{width: 415px;height:234px;background:#f0f0f0;line-height: 234px;text-align: center;}
+.small_tp{width: 165px;height:164px;background:#f0f0f0;line-height: 164px;text-align: center;margin-top:90px;}
+.w824{width:824px;}
+.h220{height:220px;}
+
+

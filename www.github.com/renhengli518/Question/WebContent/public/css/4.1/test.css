@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* 测试 */
+/*common start*/
+.red{color:#f00}
+.c666{color:#666}
+.c999{color:#999}
+.c000{color:#000}
+.pl30{padding-left:30px;}
+.pr30{padding-right:30px}
+.mr0{margin-right:0}
+.mt17{ margin-top:17px;}
+.bigPd{ padding:0 30px 30px 30px}
+.bigInput{border:1px solid #ddd; background:#fff;width:720px; margin-top:-3px;height:24px; line-height:24px; padding:3px 5px; display:inline-block; ;}
+.newSel{display:inline-block; border:1px solid #dfdfdf; background:#f0f0f0; height:32px; line-height:32px; width:170px}
+.fixedWidthSpan{display:inline-block; min-width:190px;}
+.fixedWidthInput{display:inline-block; width:150px;height:24px; line-height:24px; padding:3px 5px; border:1px solid #ddd; background:#f0f0f0; }
+.wP80{width:80%}
+.fixedRight{position:fixed; right:200px; top:50%;height:390px; min-height:390px; /* margin-top:-200px; */ width:130px; }
+.fixedRight a{display:block;font-size:20px; text-align:center; width:100%; color:#444;width:128px;height:53px; line-height:53px; border:1px solid #ddd; border-bottom:none;}
+.fixedRight a:last-of-type{ border-bottom:1px solid #ddd}
+.fixedRight a:hover,.fixedRight a.active{background:#7e532c;color:#fff}
+.fixedRight a.prev,.fixedRight a.next{height:0;width:0; border:65px solid #7e532c; border-top-width:25px; border-bottom-width:25px;background:none}
+.fixedRight a.prev{border-top:0; border-right-color:transparent; border-left-color:transparent; margin-bottom:10px}
+.fixedRight a.next{border-bottom:0; border-right-color:transparent; border-left-color:transparent; margin-top:10px}
+input.testQues,textarea{padding:0; border:1px solid #ddd; text-align:center; font-size:16px;box-shadow:none;height:26px;}
+input.choiceInput{ width:30px;min-width:30px; border:none; vertical-align:middle;background:transparent;}
+.Completion{ width:80px;min-width:80px; margin:0 5px}
+.essayQuestions{ display:block; min-height:73px; width:100%; text-align:left;padding:5px}
+/*班级空间-测试-查看测试 start  */
+.container{ margin-top:60px;position:relative;}
+.breadCrumb{height:34px; line-height:34px; color:#000;padding-left:5px;position:absolute; top:-30px;}
+.breadCrumb a{color:#26709a;}
+.breadCrumb .nextlevel{margin:0 5px;}
+.breadCrumb span.currentLevel{color:#444}
+.MarginTitle{ margin:0 -20px; margin-top:-20px;font-weight:normal; border-bottom:1px solid #ddd;font-size:24px;padding-left:20px; min-height:60px; line-height:60px;color:#7e532c}
+.MarginTitle .littleTitle{font-size:16px;color:#555555;}
+.MarginTitle .examOrder{ float:right; margin-right:62px;}
+.MarginTitle .examOrder button{background:#7e532c}
+.descCommon{color:#000; padding-top:5px}
+.descCommon li{float:left; min-width:25%; line-height:3.4}
+.testCon{color:#000; }
+.testCon .testTitle{font-size:20px; color:#000; padding-left:10px; height:70px; line-height:70px;font-weight:normal}
+.testCon .quesNum{font-size:14px;color:#7e532c; font-weight:normal}
+.testCon .quesDetail{ background-color:#f5f8fa;border-bottom:1px solid #ddd; line-height:34px;padding:0 25px 15px;}
+.testCon .quesDetail:first-of-type{ border-top:1px solid #ddd}
+.testCon .quesDesc{ height:44px; padding-top:16px; line-height:44px; }
+.testCon .quesDesc span{ margin-right:50px;}
+.testCon.testConLittleMargin .quesDesc span{margin-right:40px;}
+.testCon.testConLeastMargin .quesDesc span{margin-right:15px;}
+.testCon .quesDesc span.spanDate{ margin-right:30px}
+.testCon .quesDesc span.mr0{margin-right:0px}
+/**班级空间-测试-查看测试 end**/
+/**班级测试-测试**/
+.btnColorSearch{ border-radius:0; }
+.btnSearch{ border-radius:0; ; background:#7e532c;padding:5px 20px; display:inline-block; margin:-3px 20px 0 -2px;}
+.testWithLabel{ padding-left:43px; background-color:#fff;padding-bottom:20px; margin-top:13px; background:#fff}
+.testWithLabel.withLabel{background:#fff url(../../img/workplace/examKind.png) no-repeat 10px 0}
+.examTitle{font-size:18px; line-height:1.8}
+.examTitle a{color:#666;}
+.testWithLabel .examDesc{width:710px; display:inline-block; line-height:1.8; }
+.examDesc em{font-style:normal}
+.testWithLabel .examDesc>span{ margin-right:40px;}
+.testWithLabel a{cursor:pointer}
+.testWithLabel .examState,.testWithLabel .statistics,.testWithLabel .check,.testWithLabel .marking,.testWithLabel .deleteTask{display:inline-block; width:205px; text-align:center;color:#26709a}
+.testWithLabel .threeItem{width:130px ;}
+.testWithLabel .check{color:#26709a;}
+.testWithLabel .check.c999{color:#999;}
+.testWithLabel .red{color:red;}
+/****班级测试-测试-统计start****/
+.MarginTitleWithBg{ margin:0 -20px; margin-top:-20px; background-color:#f6f6f6; padding-left:20px;padding-right:20px; border-bottom:1px solid #ddd;font-size:22px; min-height:54px; line-height:54px;}
+.MarginTitleWithBg.pl60{padding-left:60px}
+.MarginTitleWithBg .exportData{ margin-top:13px;}
+.specialSortBox{ margin:0 -20px 30px; padding-left:20px; border-bottom:1px solid #ddd}
+.specialSortBox li:last-of-type{ border-bottom:none}
+.specialSortBox .gn-sortBox{ margin-top:10px}
+.w1080{ width:1080px; }
+.tableWrap{margin-bottom:30px; background:#f6f6f6; padding:15px; padding-top:0; border:1px solid #ddd}
+.tableWrap.bkgWhite{background:#fff}
+.tableWrap .lastQues{ margin-right:60px;}
+.lastQues i{font-style:normal; color:#26709a}
+.newTableStyle{ width:100%;height:46px; line-height:3.2;}
+.tableWrap h5{font-size:14px; margin:0 -15px; margin-bottom:10px; padding-left:12px; height:30px; line-height:30px; border-bottom:1px solid #ddd}
+.tableWrap.bkgWhite h5{background:#f6f6f6}
+.tableWrap .titleWithSearch{height:36px;line-height:36px;}
+.tableWrap .tableSearch input{width:240px; padding:8px 30px 8px 10px;margin-top:-3px;border:1px solid #ddd; background:#fff url(../../img/workplace/magnify3.png) no-repeat 250px center;font-size:14px}
+.newTableStyle tbody tr td,.newTableStyle thead th{ border:none; background:#fff; border-bottom:1px solid #d1d7db; text-align:center}
+.newTableStyle thead th{font-weight:weight; }
+.newTableStyle .sortArrow{ background:url(../../img/workplace/arrowDown1.png) no-repeat center center;cursor:pointer;display:inline-block; vertical:middle; width:8px;height:5px; margin-left:5px} 
+.newTableStyle .sortArrow.up{ background:url(../../img/workplace/arrowUp1.png) no-repeat center center}
+.newTableStyle tbody tr:nth-of-type(2n+1) td{background:#f5f8fa;}
+.chooseClass {border-top:1px dotted #999999; height:90px;min-height:90px; line-height:90px}
+.chooseClass a,.chooseClass2 a{display:inlne-block; border:1px solid #a08164;font-size:14px; border-radius:3px; color:#7e532c; margin-right:56px;height:20px; line-height:20px; padding:5px 10px}
+.chooseClass a.active,.chooseClass2 a.active{ color:#fff; background:#7e532c}
+.sortWrap a{border:1px solid #7e532c;display:inline-block; border-radius:0;color:#7e532c;  padding:3px 5px;min-width:88px; text-align:center; margin-right:25px;}
+.sortWrap a:last-of-type{ margin-right:0}
+ .newhandle{ padding:5px 20px; border:1px solid #7e532c; border-radius:0;color:#7e532c; }
+ a.newHandle{color:#26709a;cursor:pointer}
+.correctRate{}
+.correctRate li{float:left; width:60px; text-align:center; line-height:46px; }
+.correctRate li span{display:block; width:100%}
+.correctRate li .quesNo{ background:#fff; border-bottom:1px solid #d1d7db}
+.correctRate li .theRate{ background:#f5f8fa; backgroud; border-bottom:1px solid #d1d7db}
+.correctRate li:nth-of-type(1) {font-weight:bold}
+.correctRate li:nth-of-type(16n+1){width:150px}
+.correctRate li:nth-of-type(16n+1) span{width:80px; padding-left:70px}
+.line{ margin:20px 20px 0; height:0; border-top:1px dotted #ccc}
+/****班级空间-测试-统计end***/
+/*******班级空间-测试-统计-查看答题 start********/
+.borderBoxP40{ padding:0 40px 70px;}
+.titleOfCheckAnswer{ margin:0 -40px;; padding-left:40px; height:46px; line-height:46px; border-bottom:1px solid #ddd; background:#f0f0f0; font-size:18px; }
+.titleOfCheckAnswer span{ font-weight:normal; margin-right:36px;}
+.quesKind{font-size:16px; height:44px;line-height:44px; padding-top:5px}
+.quesContent {margin-top:-16px; line-height:26px;}
+.quesContentSpecial{margin-top:0}
+.quesContent .quesTitle{min-height:40px; line-height:40px; font-weight:bold}
+.fontBold{font-weight:bold}
+.fontNormal{font-weight:normal;font-style:normal}
+.commentsKinds{height:36px;line-height:36px;}
+.teaComments{margin-top:5px}
+.teaComments .commentsKinds a{display:inline-block;color:#26709a;margin-right:40px}
+.teaComments .commentsKinds a.active{ font-weight:bold;color:#16528e}
+.teaComments .commentContent{ background:#f0f0f0; min-height:126px;display:none}
+.commentContent.show{display:block}
+.teaComments .playVideoP{ height:44px;line-height:44px;backgrounf:red; border-top:1px dotted #a0a0a0}
+.teaComments .playVideoP button{ display:inline-block; vertical-align:middle; padding:5px 15px; color:#fff; background:#7e532c; border-bottom:1px solid #654223}
+.quesContent .teaComments .correctAnswer,.quesContent .teaComments .hisAnswer{min-height:28px;}
+.quesPic{display:block;width:220px;height:120px}
+/*******班级空间-测试-统计-查看答题 end********/
+
+/****家长空间测试 start****/
+
+/****教师空间测试 start****/
+.scrollWrap{border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;margin:20px -15px; padding-left:40px; padding-right:40px; height:137px; position:relative;}
+.scrollWrap .scrollUL{ position:absolute; left:0;top:0;width:11000px}
+.scrollWrap *{vertical:middle}
+.scrollWrap .prevBtn,.scrollWrap .nextBtn{width:30px; margin-top:33px;display:block;float:left;color:#fff;font-size:36px; background:#7e532c; text-align:center;}
+.scrollWrap .nextBtn{float:right}
+#scrollPic{ position:relative; margin:0 49px; width:900px; margin-top:19px;height:105px; overflow:hidden}
+#scrollPic li{float:left; width:78px;  margin:0 6px}
+#scrollPic li img{width:72px;height:72px;display:block;border:3px solid transparent; border-radius:2px;}
+#scrollPic li .stuName{font-size:16px; color:#9b9b9b;display:block; text-align:center; width:100%;min-height:28px; line-height:28px;}
+#scrollPic li.active img{ border-color:#7e532c}
+#scrollPic li.active .stuName{color:#7e532c}
+.fuwenben{ width:880px;min-height:120px; border:1px solid #ddd}
+.quesContent .giveScore{ margin:15px 0}
+.inputScore{background:#fff; width:70px; padding:6px 5px; margin-right:4px; border:1px solid #e9e9e9}
+.quesContent .btnSub{padding:2px 50px; background:#7e532c;border-bottom:1px solid #654223; border-radius:3px;font-size:20px}
+.markingSub{
+	background: #7e532c none repeat scroll 0 0;
+    border-bottom: 1px solid #654223;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 2px 50px;
+    margin: 30px auto;display:block;
+    }
+/*我的试卷*/
+.floatWrap{ margin-top:23px;}
+.floatWrap .mainLeft{width:229px; margin-right:17px; float:left;}
+.floatWrap .mainRight{/* width:901px; */ overflow:hidden;padding:25px;padding-top:0; border:1px solid #ddd}
+.mainLeft .btnAddToPaper{display:block; width:100%; border-radius:3px; background:#7e532c; text-align:center; font-size:16px; padding:5px 0 }
+.mainLeft .NavTableTitle{ margin-top:-5px; margin:-5px -5px 0 -5px; border-bottom:1px solid #ddd; min-height:54px; line-height:54px; font-size:16px; color:#000;padding-left:20px}
+.mainLeft .NavTableTitle.delNav{ background:#e6e6e6;}
+.paperNavTable{width:100%; margin-top:5px;}
+.paperNavTable thead th,.paperNavTable tbody td{ text-align:center; line-height:3;font-size:16px; color:#000; border-bottom:1px solid #e6e6e6;}
+.paperNavTable thead th{background:#eaf6f4}
+.delSelTable tbody td{ background:#fafafa}
+.quesDesc .removeFromPaper,.quesDesc .removeUp,.quesDesc .removeDown{padding:4px 15px; background:#7e532c; font-size:16px;}
+.btn.nextStep{ border-radius:3px;font-size:16px}
+.littleInput{ background:#f0f0f0; display:inline-block; width:50px; padding:4px 5px; border:1px solid #dfdfdf;margin:0 5px}
+.borderBox.pd10{padding:10px}
+.w60{width:60px}
+.analysisWrap .analysis{width:60px; float:left;display:block;font-weight:bold}
+.analysisWrap .theAnalysis{ overflow:hidden;display:block; }
+.analysisWrap .text{display:block; float:left; min-width:40px;}
+.analysisWrap .cont{display:block; overflow:hidden; }
+/****教师空间测试 end****/

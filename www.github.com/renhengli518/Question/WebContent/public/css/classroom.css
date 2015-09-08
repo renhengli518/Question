@@ -1,0 +1,148 @@
+@charset "utf-8";
+html,body{overflow:hidden;}
+body{background:#73a53f; }
+.cocoWrap{position:absolute;width:1px;height:1px;overflow:hidden;}
+.header{position:fixed;left:0;width:100%;height:32px;background:#fff;z-index:100;padding:5px 0;box-shadow:0 5px 5px rgba(0,0,0,0.2);}
+.midd{height:72px;padding-top:20px;display:block;overflow: hidden;zoom:1;border-top:1px solid #888a95;border-bottom: 1px solid #5c5f76;}
+.wrapper{width: 1000px;margin:0 auto; overflow: hidden;zoom:1;}
+.contain{overflow: hidden;zoom:1;margin:0 auto;}
+
+/* header */
+.headerInner{margin:0 auto;}
+.headerHide{visibility:hidden;}
+.closeBtn{float:right;width:34px;height:34px;background:url(../img/green/end.png) no-repeat;text-indent:-1000px;overflow:hidden;display:inline;}
+.modeType{padding-left:6px;}
+.modeType a{display:inline-block;width:100px;padding-left:30px;height:34px;line-height:32px;font-weight:bold;background:url(../img/green/ctrlIcon.png) no-repeat #73a53f;border:1px solid #666;border-radius:5px 5px 0 0;text-align:center;color:#fff;font-size:18px;}
+.modeType .cur{background-color:#e57617;}
+#videoBtn{background-position:12px 10px;}
+#domeBtn{background-position:12px -30px;}
+#vgaBtn{background-position:12px -70px;}
+
+.moreWrap{position:relative;float:right;display:inline;margin-right:20px;}
+.moreWrap #moreOpts{width:100px;padding-left:30px;height:32px;line-height:32px;font-size:18px;font-weight:bold;background-image:url("../img/green/ctrlIcon.png");background-repeat:no-repeat;background-position:12px -114px;}
+#moreApps{position:absolute;left:-5px;top:40px;padding-top:10px;z-index: 999999;}
+#moreApps.hidden{display:none;}
+#moreApps .arrow{position:absolute;top:0;left:70px;width:11px;height:11px;background:url(../img/green/top_arrow.png) 0 0 no-repeat;}
+#moreApps ul{width:150px;border:1px solid #3c413a;background:#83bc49;border-radius: 3px;overflow:hidden;}
+#moreApps ul.menuSync{border-radius:0;box-shadow:none;}
+#moreApps li{height:44px;line-height:44px;text-align:justify;text-justify:inter-ideograph}
+#moreApps a{background:url(../img/green/moreicon.png) 0 0 no-repeat;display:block;padding-left:40px;color:#536074;zoom:1;font-size:16px;font-weight:bold;color:#fff;text-shadow:1px 1px 1px #568c36;}
+#moreApps li:hover{background:-moz-linear-gradient(top, #84ba4a, #669334);}
+#moreApps a:hover{text-shadow:0;color:#eee;}
+#moreApps a.disabled{color:#999;}
+#moreApps #addBranch{background-position:8px 10px;}
+#moreApps #setPad{background-position:8px -28px;}
+#moreApps #setRecord{background-position:8px -68px;}
+#moreApps #talkSet{background-position:8px -108px;}
+
+.support{float:right;padding:5px 10px 0 0;text-shadow:1px 1px 1px #ccc;font-size: 16px;color: white;}
+
+.myWrapOuter{}
+.edge {display: inline-block;height: 100%;vertical-align: middle;width: 0;}
+
+.ctlBtn{position:absolute;z-index:2;display:none;right:40px;bottom:5px;width:26px;height:25px;overflow:hidden;line-height:21px;text-indent:-1000px;color:#ceebff;background:url(../img/green/audio.png);cursor:pointer;}
+.focusBtn{display:block;}
+.vgamodeBtn{background:url(../img/green/vga.png);}
+.fullSpeaker .ctlBtn{display:block;background:url(../img/green/audio2.png);}
+.currInterSpeaker .vgamodeBtn{display:block;background:url(../img/green/vga2.png);}
+/*
+.hoverBtn{background:url(../img/green/audio2.png);}
+.hoverBtn.vgamodeBtn{background:url(../img/green/vga2.png);}
+*/
+
+.state .videoCont{border:2px solid #3179ab;box-sizing: border-box;-webkit-box-shadow: -2px 0 5px #5483a9,0 -2px 5px #5483a9,0 2px 5px #5483a9,2px 0 5px #5483a9;-moz-box-shadow: -2px 0 5px #5483a9,0 -2px 5px #5483a9,0 2px 5px #5483a9,2px 0 5px #5483a9;box-shadow: -2px 0 5px #5483a9,0 -2px 5px #5483a9,0 2px 5px #5483a9,2px 0 5px #5483a9;}
+.say,.noSay{float:right;background:url('../img/ui/ui_btn_26.gif') no-repeat 0px 0;color:#7c9ab0;font-size:12px;text-indent: 22px;width:74px;height:20px;line-height: 20px;cursor:pointer;}
+.noSay{background-image:url('../img/ui/ui_btn_25.gif');color:#48a4e4;}
+.wrap1x3{width:440px;height:250px;}
+.wrapMain{height:480px;}
+.mt{margin-top:25px;}
+
+#publishBox,#transferObject{width:1px;height:1px;overflow:hidden;position:absolute;}
+#publishBox{
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	position:absolute;
+	bottom: 5px;
+	right: 5px;
+}
+#publishBox.show{
+	width:320px;
+	height:180px;
+	line-height: 1;
+}
+#SmartPublisher{position:absolute;}
+
+.myWrapper{overflow:hidden;zoom:1;text-align:center;padding-top:41px;margin:0 auto;}
+.videoCont{position:relative;z-index:1;border:1px solid #618726;}
+.videoWrap{position:relative;width:47%;display:inline-block;*display:inline;zoom:1;overflow:hidden;margin:2px;box-shadow:2px 2px 5px #517c25, -2px -2px 5px #517c25;}
+#wrapper_all0 .videoWrap{width:95%;}
+.currSpeaker {box-shadow:8px 0 8px #E47617,0 8px 8px #E47617,-8px 0 8px #E47617,0 -8px 8px #E47617,0 0 16px #E47617;}
+.currSpeaker .videoCont{border-color:#E47617;}
+.currSpeaker .ctlBtn{display:block;}
+.videoWrap h5,#bigvideoWrap h5{position:absolute;z-index:2;bottom:3px;left:5px;line-height:30px;font-size:25px;color:#fff;text-shadow:1px 1px 1px #333;font-family:"方正魏碑";}
+.emptyBox{display:inline;width:100%;height:100%;}
+.bg{position:absolute;background:#73a53f url("../img/green/bg.png") 50% 50% no-repeat;z-index:-1;top:0;left:0;width:100%;height:100%;vertical-align:middle;text-align:center;font-size:60px; color: rgba(255,255,255,.2);font-family:"Arial";font-size:150px;}
+
+.fullMode .videoWrap{position:absolute;top:-1500px;left:-1500px;}
+.fullMode .fullSpeaker{top:0 !important;left:0 !important;width:100% !important;height:100% !important;z-index:10;}
+.mainRoom.fullMode .fullSpeaker{top:40px !important;}
+
+#ePad{position:absolute;z-index:101;left:0;top:0;width:100%;background:#FFF;height:100%;overflow:hidden;visibility:hidden;}
+#docPad{position:absolute;z-index:9;}
+.closePad{position:absolute; z-index:10; top:8px;right:5px;  font-size: 0;height: 26px; line-height: 0; overflow: hidden;  width: 26px; background:url("../img/green/close.png") no-repeat scroll 0 0 rgb(0, 0, 0);}
+.padMasker{position:absolute; width:100%;height:100%;z-index:11;}
+
+
+/* 分课堂 */
+.branchContainer .header{background:#73a53f}
+.branchContainer #talkSet{float:right;display:inline;margin-right:10px;margin-top: 5px;}
+.branchContainer #homeWorkBtn{float:right;display:inline;margin-right:10px;margin-top: 5px;}
+.branchContainer #videoSet{margin-top: 5px;}
+.header .title{color:#fff;font-size:16px;height:33px;line-height:33px;font-weight:bold;padding-left:10px;text-shadow: 1px 1px 1px #ccc;}
+.adminContainer .title{color:#647344;}
+.branchContainer .closeBtn{background-image:url(../img/green/end2.png); margin-right:15px;}
+.adminContainer .quitBtn{float:right;}
+.branchContainer .videoWrap{width:100px;height:100px;position:absolute;top:-500px;left:-500px;}
+.branchContainer .videoCont{border:0;background:#73A53F;}
+#bigvideoWrap{position:relative;height:700px;box-shadow:5px 5px 10px #517c25, -5px 0 10px #517c25;}
+.network {position: absolute; top: 2px; right: 2px;width: 36px; height: 25px;display: none;background:url("../img/green/network.png") no-repeat 0 0 ;}
+.branchContainer .network {right: 5px;top: 6px;z-index: 1000;}
+.network1 {background-position:0 -5px;display: block;}
+.network2 {background-position:0 -35px;display: block;}
+.network3 {background-position:0 -65px;display: block;}
+.network4 {background-position:0 -95px;display: block;}
+.network5 {background-position:0 -125px;display: block;}
+.networkWarp {text-align: center;}
+.networkBox {color: #666666;display: inline-block;text-align: left;}
+.networkBox .networkLow{color:#FB7A6D;}
+.networkBox .networkBtns{text-align: center;}
+.networkBox .networkCkBox{display: inline-block;background-image:url(../img/green/ckbox2.png);width:25px;cursor:pointer;}
+.networkBox .networkCkBox.sel{background-image:url(../img/green/ckbox1.png);}
+
+
+.adminContainer{background:#f6f6f6;}
+.adminContainer .videoWrap{box-shadow:1px 1px 4px #ccc, -1px -1px 4px #ccc;}
+.adminContainer .videoCont{border:0;}
+.adminContainer .support{color:#647344}
+
+#moreApps #homeWorkBtn {
+    background: url("../img/classroom/homeWorkBtn.png") no-repeat scroll 14px center;
+}
+#homeWorkIframe {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2000;
+}
+
+
+#homeWorkIframe.homeWorkIframeHide {
+	position: absolute;
+	top: -100px;
+	left: -100px;
+	height: 1px;
+	width: 1px;
+	z-index: 2000;
+}

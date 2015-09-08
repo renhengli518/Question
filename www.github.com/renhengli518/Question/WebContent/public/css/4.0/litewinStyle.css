@@ -1,0 +1,76 @@
+.myDialog {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.dialog_Wrap{border:none}
+.dialog_Head {
+    background-color: #73a53f;
+    color: #fff;
+    cursor: move;
+    font-size: 18px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-top:none;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.dialog_Body {
+}
+.dialog_Cont {
+    padding: 20px;
+}
+#dialogAlert .dialog_Cont, #dialogAlert .dialog_Cont {
+    text-align: center;
+}
+.dialog_Inner {
+    color: #647344;
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+}
+.dialog_Opts {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+.dialog_Opts a {
+    cursor: pointer;
+    float: right;
+    font-size: 0;
+    height: 26px;
+    line-height: 0;
+    overflow: hidden;
+    width: 26px;
+}
+.dialog_Opts i{display:inline-block;height:26px;width:26px;}
+.dialog_Opts .dialog_close {
+    background:url("../../img/common/close1.png") no-repeat scroll center center;
+    outline: medium none;
+    height:26px;
+    width:26px;
+    cursor: pointer;
+    text-indent: -2000px;
+}
+.dialog_Btns {
+    padding-top: 10px;
+    text-align: center;
+}
+.converIframe {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.dialog_Cont i {
+    font-style: normal;
+}
+#masker {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #000\9;
+    filter: alpha(opacity=50);
+}

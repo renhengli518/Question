@@ -1,0 +1,11 @@
+fieldset{display:block;padding:0px 40px;background-color:#fff; border:1px solid #dddddd;line-height:2.4}
+fieldset legend{font-size:18px;color:#444;font-size:16px;}
+.scheduleContents{color:#444;}
+.scheduleItem{margin-right:40px}
+.mr80{margin-right:80px}
+.mr60{margin-right:60px}
+.scheduleDetail{color:#7a7a7a}
+.onlineStu{display:block;color:#444}
+.onlineStu .grade input{margin-right:10px; margin-top:-2px}
+.sub,.cancel{padding:3px 40px;font-size:16px}
+.sub{ background:#4dadc6}

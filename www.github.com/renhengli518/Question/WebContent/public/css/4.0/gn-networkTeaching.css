@@ -1,0 +1,15 @@
+body{background:#f5f8fa}
+.container{ background:none}
+.section1,.section2,.section3{margin-top:70px}
+.sectionLeft{width:908px;margin-right:20px}
+.gn-bgWhite{background:#fff}
+.sectionLeft .gn-secTitle{padding-left:15px;color:#555;font-size:24px; border-left:5px solid #c52c03;height:28px;line-height:28px; margin-bottom:13px }
+.sectionLeft .gn-researchMore{color:#758d94; font-size:14px;width:80px;text-align:center; border-radius:5px; background:#fff;height:26px;line-height:26px; border:1px solid #758d94}
+.gn-research li{ list-style-position:outside; list-style-image:url(../../img/common/listType.png);}
+.gn-research li *{vertical-align:middle}
+.gn-research  a{display:inline-block;width:100%;color:#444; }
+.gn-research .gn-researchTitle{width:690px; overflow:hidden}
+.gn-research  .gn-researchDate{color:#888}
+.gn-researchPadding{padding:10px 25px}
+.gn-title-1{border-bottom:2px solid #f7ab00}
+

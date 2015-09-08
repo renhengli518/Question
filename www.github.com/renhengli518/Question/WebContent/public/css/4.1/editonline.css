@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* 在线编辑 */
+.search_setion{background-color: #fff;height:76px;line-height:76px;border: 1px #ddd solid;}
+.search_setion span{margin-right: 10px;margin-left: 61px;}
+.search_setion select{width: 105px;}
+
+.videoCute{border: 1px #ddd solid;}
+.videoCute ul{line-height: 56px;float: left;width: 100%;background-color: #fff;border-bottom: 1px #d1d7db solid;}
+.videoCuteList:nth-child(2n+1){background-color: #f5f8fa;}
+.videoCute li{float: left;}

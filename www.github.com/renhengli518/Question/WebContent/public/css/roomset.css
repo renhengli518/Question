@@ -1,0 +1,197 @@
+@charset "utf-8";
+.hide {
+    display: none;
+}
+
+.roomset-warp {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 540px;
+}
+
+.roomset-left {
+    float: left;
+    position: relative;
+    width: 205px;
+}
+
+.roomset-min {
+    float: left;
+    margin: 120px 0 0 35px;
+    width: 90px;
+}
+
+.roomset-min a {
+    background: url(../img/classroom/add.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+.roomset-min a.del {
+   background-position: 0 -30px;
+}
+
+.roomset-right {
+    float: right;
+    padding-top: 30px;
+    width: 175px
+}
+
+.roomset-info {
+    height: 40px;
+    line-height: 40px;
+}
+
+.roomset-right .roomset-list {
+    width: 170px;
+}
+
+.roomset-search {
+    border: 1px solid #8e9977;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #f2f2f2 inset;
+    color: #647344;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    padding: 0;
+}
+
+.roomset-list {
+    border: 1px solid #8e9977;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 288px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 205px;
+}
+
+.roomset-list dl,.roomset-list h5 {
+    font-size: 18px;
+}
+
+.roomset-list dl dd {
+    line-height: 25px;
+}
+
+.roomset-list dl dd h5 {
+    text-indent: 26px;
+    background: url(../img/classroom/arrow_down.png) no-repeat 10px 50%;
+}
+
+.roomset-list dl dd ul {}
+
+.roomset-list dl dd ul li {
+    margin-bottom: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-all;
+    text-indent: 42px;
+}
+
+.roomset-list dl dd ul li h5 {
+    text-indent: 42px;
+    background: url(../img/classroom/arrow_down.png) no-repeat 26px 50%;
+}
+
+.roomset-list dl dd ul li ul li {
+    text-indent: 58px;
+}
+
+.roomset-list dl dd ul li ul li h5 {
+    text-indent: 58px;
+    background: url(../img/classroom/arrow_down.png) no-repeat 42px 50%;
+}
+
+.roomset-list dl dd ul li ul li ul li {
+    text-indent: 74px;
+}
+
+.roomset-list dl dd ul li ul li ul li h5 {
+    text-indent: 74px;
+    background: url(../img/classroom/arrow_down.png) no-repeat 58px 50%;
+}
+
+.roomset-list dl dd ul li ul li ul li ul li {
+    text-indent: 90px;
+}
+
+.roomset-list dl dd ul li ul li ul li ul li h5 {
+    text-indent: 90px;
+    background: url(../img/classroom/arrow_down.png) no-repeat 74px 50%;
+}
+
+.roomset-list dl dd ul li ul li ul li ul li ul li {
+    text-indent: 106px;
+}
+
+.roomset-list dl dd ul li ul li ul li ul li ul li h5 {
+    text-indent: 106px;
+    background: url(../img/classroom/arrow_down.png) no-repeat 90px 50%;
+}
+
+.roomset-list h5.expand {
+    background-image: url(../img/classroom/arrow_up.png);
+}
+
+.roomset-list h5 {
+    font-weight: normal;
+    height: 30px;
+    line-height: 28px;
+    margin-bottom: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.roomset-list .classRoom.sel {
+    background-color: #d5e4c5;
+}
+
+.roomset-list h5.classRoom {
+    background-image: none !important;
+}
+
+.roomset-list-add dl,
+.roomset-list-search dl {
+    margin-left: -20px;
+}
+
+.roomset-list-search {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #8e9977;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 32px;
+    width: 100%;
+}
+.roomset-invite {
+	border: 1px solid #8e9977;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.roomset-invite h2{
+	font-size: 15px;
+ 	height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.roomset-invite-title {
+	float: left;
+    text-align: right;
+    width: 84px;
+}
+.roomset-invite-link {
+	display: block;
+    margin-left: 86px;
+    text-align: left;
+    word-break: break-all;
+}

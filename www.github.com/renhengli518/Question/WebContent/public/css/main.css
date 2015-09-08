@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* 教室，课堂页面 */
+html,body{height:100%;overflow:hidden;}
+body{background:url(../img/green/bg.jpg) repeat-x 0 0;font-family:"微软雅黑"; }
+.cocoWrap{position:absolute;}
+.container{height:100%;background:url(../img/green/mainbg2.jpg) no-repeat 0 0 ; background-size:cover;}
+.wrap{position:relative;z-index:10;min-height:660px;width:1000px;margin:0 auto;padding-top:200px;}
+.textBg{float:left;}
+.box{float:left;zoom:1;}
+/*.footer{position:absolute;z-index:1;bottom:0;width:100%;background:#fff;font-size: 14px;}
+.footerInner{padding:0 30px;color: #999;height:100px;line-height:100px;}
+.footer p{float:right;display:inline-block;}
+.footer p a{color:#999;}*/
+/*.footer{height:148px; line-height:148px;padding:0 50px}*/
+.footerInner{height:148px;line-height:148px;}
+.footer *{vertical-align:middle} 
+.footer p{line-height:30px; margin-top:43px; color:#ad9066; margin-right:90px}
+.footerInner img{vertical-align:middle;}
+
+
+/* 中心校 */
+.box{text-align:center;}
+.box p{margin-top:25px;color:#355e70;font-size:14px;}
+.box .nameValue{width:253px;padding:10px;background:#fff;font-size:22px;color:#123E2D;font-weight:bold;border:1px solid #2f4517;border-radius:5px;}
+.box .modeLabel{cursor:pointer;display:inline-block;color:#344403;font-weight:bold;font-size:15px;}
+
+.box .btnicon{display:inline-block;color:#fff;font-size:18px;font-weight:bold;padding-left:30px;background:url(../img/green/icon.png) no-repeat;}
+.box .btnSet{margin-right:30px;background-position:0 0;}
+.box .btnName{position:relative;background-position:0 -36px;}
+.box .startBtn{width:270px;height:40px;line-height:38px; font-size: 22px;font-weight:bold;}
+
+/* 教学点 */
+.branchSchool .container,.guestSchool .container{background-image:url(../img/green/mainbg.jpg)}
+.adminSchool .container{background-image:url(../img/green/mainbg3.jpg)}
+
+.textBg2{text-align:center;}
+.textBg2 p{padding:20px;}
+
+.listWrap{position:absolute;right:20px;bottom:110px;z-index:11;}
+.newClassList{}
+.newClassList .content{background:#fff;border-radius:5px;padding:15px;margin:5px 0 15px;}
+.newClassList li{width:300px;height:198px;padding:5px;margin:5px;display:inline-block;zoom:1;*display:inline;background:#73a53f;border:1px solid #4f6428;border-radius:5px;}
+.newClassList .noCont{color:#0a4975;font-size:14px;font-weight: bolder;margin:50px auto 0 auto;height:198px;text-align: center;}
+.contact{width:499px;height:124px; background:url(../img/main/contactBg.gif) no-repeat;margin:0 auto;position: relative;top:-15px; text-align: center;overflow:hidden;zoom:1;}
+.contact img{display:block;margin:56px auto 0 auto; }
+.newClassList h4{color:#fff;font-size:20px;font-weight: bolder;text-shadow:1px 1px 1px rgba(0,0,0,0.5);}
+.newClassList .new h4{color:#c7411d;}
+.newClassList li p{height:26px;overflow:hidden;line-height: 26px;word-break:break-all;font-size:16px;color:#314507;}
+.newClassList li .come{text-align:center;height:31px;}
+.newClassList .listBtn{text-align: center;height:80px;width:100%;}
+.newClassList .come .btn{font-size:18px;}
+.newPic{position: absolute;top:-22px;right:-12px;}
+.blankTip{display:none;text-align:center;font:18px/258px "微软雅黑";}
+.listBtn a.btnName,.listBtn a.btnSet,.listBtn a.btnVideo{margin-right:15px;text-align: left;color: #195a87;font-size:14px;font-weight:bold;border:2px solid #b7cde2;
+padding:8px 20px 5px 45px;padding-left:45px;padding-right:20px;text-decoration: none;display:inline-block;position:relative;}
+.listBtn a.btnSet{background-position:18px 5px}
+.listBtn a.btnVideo{background-position:18px -55px}
+.showListBtn{position:relative;height:36px;line-height:34px;padding:0 10px 0 35px;background-image:url("../img/green/icon.png");background-position: 5px -33px;background-repeat:no-repeat;text-align:center;font-size:20px;}
+
+
+/* 来宾登陆 */
+.box .loginT{text-align:center;font-size:28px;color:#fff;}
+
+.error_logo{padding:20px 0 100px;}
+.error_content{height:500px;}
+.error_contBorder{width:640px;height:270px;}
+.error_msg{padding-top:95px;text-align:center;color:#3871b8;font-size:14px;}
+.error_msg h4{font:24px/24px "微软雅黑";margin-bottom:20px;}
+.error_msg img{vertical-align:middle;margin-right:10px;}
+.error_msg a{color:#E88B11;text-decoration:underline;}
+
+/* 错误，空页面 */
+.errorBody .dialog_close{display:none;}

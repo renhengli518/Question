@@ -1,0 +1,194 @@
+.table_wrap .count{background:#4dadc6}
+/**************************鍚嶆牎缃戠粶璇惧爞 start************************/
+/*---------------鐪佸競鍘�----------*/
+.management .header_down_wrap .header_down_inner_wrap ._header .header_item_last .nav .nav_item_clicked{color:#4dadc6; border-bottom-color:#4dadc6}
+.management .container .title_wrap .city_title{ border-bottom-color:#4dadc6 }
+.management .container .class_inof_wrap .classroom_info_title .title_text{color:#4dadc6}
+.management .easy_tab .tab_item_selected_city{background:#fff url("../../img/workplace/blueTopArrow.png") no-repeat scroll 0 0}
+.management .gn-searchCondition .gn-labelText{background:url(../../img/workplace/blueBracket.png) no-repeat scroll 0 center;}
+.management .header_up_wrap .header_up_inner_wrap ._header .header_item_search,.management .header_up_wrap .header_up_inner_wrap ._header .header_item_quit{border-left:1px solid #4dadc6;border-right:1px solid #4dadc6}
+.management .header_up_wrap .header_up_inner_wrap ._header .header_item_quit .quit {
+    color: #444;
+}
+.management .header_up_wrap .header_up_inner_wrap ._header .header_item .user_center{color:#444}
+.management .gn-searchCondition .gn-sortBox a{color: #444;}
+.management .gn-searchCondition .gn-sortBox a.selected{color:#fff}
+.management .gn-sortBox .selected,.management .gn-sortBox a:hover{background:#4dadc6;color:#fff}
+.management .gn-classDate{color:#4dadc6}
+.management .gn-title-1{ border-bottom:2px solid #4dadc6}
+.management .container .title_wrap .city_title{ border-bottom:2px solid #4dadc6}
+.management .video_review .container .title{color:#6eb9ce}
+.management .dialog_Head {border-top-color: #4dadc6;}
+/*---------------鑰佸笀------------*/
+.management .pageNavi a{border-color:#d1d7db;color:#555}
+.management .pageNavi .page_prev,.management .pageNavi .page_next{background-color:#4dadc6;color:#fff; border:none; }
+.management .pageNavi .page_go{color:#fff !important; background:#4dadc6}
+.management .pageNavi .nolink{background:#999}
+.management .pageNavi .curr{color:#fff;background:#ff9c00}
+/*---------------老师------------*/
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search.selected{background-color:#583a1f}
+.teacherRole .header_up_inner_wrap ._header .header_item .search_wrap1 {
+	background:none;
+	background:url(../../img/workplace/searchSprite.png) no-repeat center -24px
+}
+.teacherRole .search_box .search_btn {
+  background:#fff url(../../img/workplace/searchSprite.png) no-repeat center -140px;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  padding-top: 6px;
+  float: right;
+  height: 28px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.teacherRole .header_up_wrap{border-bottom: 1px solid #663300;background:#7e532c}
+.teacherRole .header_up_wrap .header_up_inner_wrap{color:#fff}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search,.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit,.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit{border-left: 1px solid #673301;border-right: 1px solid #673301;}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search{background-color:inherit;}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_nav .nav .nav_item{color:#fff}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item .user_center{background:url(../../img/workplace/home.png) no-repeat scroll 0 3px;}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_title{color:#fff}
+.teacherRole .header_down_wrap .header_down_inner_wrap ._header .header_item_last .nav .nav_item_clicked{color:#e23434; border-bottom:2px solid #e23434}
+.teacherRole .header_down_wrap .header_down_inner_wrap ._header .header_item_last .nav .nav_item:hover{color:#f20357}
+.teacherRole .gn-searchCondition .gn-labelText{ background:url(../../img/workplace/blackBracket.png) no-repeat 0 center}
+.teacherRole .gn-sortBox a{color:#663300}
+.teacherRole .gn-sortBox .selected,.teacherRole .gn-sortBox a:hover{color:#fff;background:#34a150 }
+.teacherRole .gn-classDate{color:#7e532c}
+.teacherRole .tableBox .gn-classWorkEdit{color:#26709a}
+.teacherRole .gn-title-1{border-bottom:2px solid #2dbe60}
+.teacherRole .container .title_wrap .city_title{ border-bottom:2px solid #2dbe60}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit .quit{color:#fff}
+.teacherRole .easy_tab .tab_item_selected_city{background: #fff url("../../img/workplace/greenTopArrow.png") no-repeat scroll 0 0;}
+.teacherRole .video_review .container .title{color:#7e532c}
+.teacherRole table .handle{color:#26709a}
+.teacherRole .gn-classDate{color: #7e532c;}
+.teacherRole .tree .node-0>span{ color:#663300;}
+.teacherRole .tree .node-1>span{color: #e23434;}
+.teacherRole .tree .node-1>span>.dot{background-color:#e23434}
+.teacherRole .header_up_wrap .header_up_inner_wrap ._header .header_item .user_center{color:#fff !important}
+.teacherRole .dialog_Head {border-top-color: #7e532c;}
+/*---------------瀛︾敓鍜屽闀�-----------*/
+.teacherRole .pageNavi a{border-color:#d1d7db;color:#555}
+.teacherRole .pageNavi .page_prev,.teacherRole .pageNavi .page_next{background-color:#7e532c;color:#fff; border:none; }
+.teacherRole .pageNavi .curr{color:#fff;background:#ff9c00}
+.teacherRole .pageNavi .nolink{background:#999}
+.teacherRole .pageNavi .page_go{color:#fff !important; background-color:#7e532c}
+/*---------------评课议课详细------------*/
+.management .tabItem.selected{color:#98dbee}
+.teacherRole .tabItem.selected{color:#7e522b}
+/*---------------学生和家长------------*/
+
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search.selected{background-color:#1f8543 }
+.parOrChildRole .header_up_inner_wrap ._header .header_item .search_wrap1 {
+	background:none;
+	background:url(../../img/workplace/searchSprite.png) no-repeat center -24px
+}
+.parOrChildRole .search_box .search_btn {
+  background:#fff url(../../img/workplace/searchSprite.png) no-repeat center -69px;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  padding-top: 6px;
+  float: right;
+  height: 28px;
+  cursor: pointer;
+}
+.parOrChildRole .header_up_wrap{background:#2dbe60; border-bottom:1px solid #34a150}
+.parOrChildRole .header_down_wrap .header_down_inner_wrap ._header .header_item_last .nav .nav_item_clicked{ color:#2dbe60; border-bottom-color:#2dbe60}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search,.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit{ border-color:#34a150}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_title{color:#fff}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_nav .nav .nav_item{color: #fff}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap{color:#fff; }
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item .user_center{background:url(../../img/workplace/home.png)no-repeat 0 3px}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit .quit{color:#fff}
+.parOrChildRole .gn-searchCondition .gn-labelText{background:url(../../img/workplace/greenBracket.png) no-repeat scroll 0 center;}
+.parOrChildRole .gn-classDate{ color: #34a150}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item .user_center{color:#fff !important}
+.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search,.parOrChildRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit{border-left:1px solid #34a150;border-right:1px solid #34a150}
+.parOrChildRole .gn-title-1{border-bottom:2px solid #2dbe60}
+.parOrChildRole .gn-searchCondition .gn-sortBox a{color:#444}
+.parOrChildRole .gn-searchCondition .gn-sortBox .selected,.parOrChildRole .gn-searchCondition .gn-sortBox a:hover{background:#34a150 !important;color:#fff}
+.parOrChildRole .video_review .container .title{color:#2dbe60}
+.parOrChildRole table .handle{color:#4dadc6}
+.parOrChildRole .gn-classDate{color: #34a150;}
+.parOrChildRole .dialog_Head {border-top-color: #2dbe60;}
+/**************************鍚嶆牎缃戠粶璇惧爞 end************************/
+/**************************缃戠粶鏁欑爺锛堥泦浣撳璇撅級*****************************/
+/*-----鑰佸笀----*/
+.parOrChildRole .pageNavi a{border-color:#d1d7db;color:#555}
+.parOrChildRole .pageNavi .page_prev,.parOrChildRole .pageNavi .page_next{background-color:#2dbe60;color:#fff; border:none; }
+.parOrChildRole .pageNavi .curr{color:#fff;background:#ff9c00}
+.parOrChildRole .pageNavi .nolink{background:#999}
+.parOrChildRole .pageNavi .page_go{color:#fff !important; background-color:#2dbe60}
+
+/*---------------评课议课详细------------*/
+.parOrChildRole .tabItem.selected{color:#98dbee}
+
+/**************************名校网络课堂 end************************/
+/**************************网络教研（集体备课）*****************************/
+/*-----老师----*/
+.teacherRole .container .container_inner .table_wrap .count{background:#7E532C}
+.teacherRole .table_wrap .count{background:#7e532c}
+.teacherRole.pingke .dialog_Body{border:2px solid #dfdfdf; border-top:none;;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.teacherRole.netTeaching .dialog_Cont{padding:10px;}
+.teacherRole.netTeaching .dialog_Head{color:#fff;height:40px;font-size:18px;line-height:40px;border-top:none;background:#7e532c;height:40px;line-height:40px;;border-top-left-radius:5px;border-top-right-radius:5px;padding-left:12px;text-align:left}
+
+/**-----鐪佸競鍘裤�瀛︽牎----**/
+.management.netTeaching .dialog_Body{border:2px solid #dfdfdf; border-top:none;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.management.netTeaching .dialog_Cont{padding:10px;}
+.management.netTeaching .dialog_Head{color:#fff;height:40px;font-size:18px;line-height:40px;border-top:none;background:#4dadc6;height:40px;line-height:40px;;border-top-left-radius:5px;border-top-right-radius:5px;padding-left:12px;text-align:left}
+
+/******************************涓撻�璇惧爞start********************************/
+
+
+/******************************涓撻�璇惧爞end*************************************/
+/*********************************** 绌洪棿start ***********************************/
+.parOrChildRole .gn-personalInfoTab{border-top-color:#2dbe5f}
+.teacherRole .nr_title a.h3_active{border-bottom: 4px solid #e23435;}
+.parOrChildRole .nr_title a.h3_active{border-bottom: 4px solid #2bb95e}
+.teacherRole .header_up_wrap{ background:#7e522b}
+/*********************************** 绌洪棿   end  **********************************/
+
+/******************************璧勬簮start***************************/
+/*---鐪佸競鍘垮伐浣滃彴---*/
+.teacherRole .gn-sourcesLeft .gn-srcTitile{color:#663300}
+.teacherRole .resourceList dl h4 a{color:#7e532c}
+.teacherRole .gn-sourceTabs .gn-TopArrowSelected{background:url("../../img/workplace/redTopArrow.png") no-repeat}
+/******************************璧勬簮 end*************************/
+/*****瀛︽牎*******/
+.schoolRole .header_down_wrap .header_down_inner_wrap ._header .header_item_last .nav .nav_item_clicked{color:#4dadc6; border-bottom-color:#4dadc6}
+.schoolRole .container .title_wrap .city_title{ border-bottom-color:#4dadc6 }
+.schoolRole .container .class_inof_wrap .classroom_info_title .title_text{color:#4dadc6}
+.schoolRole .easy_tab .tab_item_selected_city{background:#fff url("../../img/workplace/blueTopArrow.png") no-repeat scroll 0 0}
+.schoolRole .gn-searchCondition .gn-labelText{background:url(../../img/workplace/blueBracket.png) no-repeat scroll 0 center;}
+.schoolRole .header_up_wrap .header_up_inner_wrap ._header .header_item_search,.schoolRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit{border-left:1px solid #4dadc6;border-right:1px solid #4dadc6}
+.schoolRole .header_up_wrap .header_up_inner_wrap ._header .header_item_quit .quit {
+    color: #444;
+}
+.schoolRole .header_up_wrap .header_up_inner_wrap ._header .header_item .user_center{color:#444}
+.schoolRole .gn-searchCondition .gn-sortBox a{color: #444;}
+.schoolRole .gn-searchCondition .gn-sortBox a.selected{color:#fff}
+.schoolRole .gn-sortBox .selected,.schoolRole .gn-sortBox a:hover{background:#4dadc6;color:#fff}
+.schoolRole .gn-classDate{color:#4dadc6}
+.schoolRole .gn-title-1{ border-bottom:2px solid #4dadc6}
+.schoolRole .container .title_wrap .city_title{ border-bottom:2px solid #4dadc6}
+.schoolRole .video_review .container .title{color:#6eb9ce}
+.schoolRole  .dialog_Head {border-top-color: #4dadc6;}
+.schoolRole .pageNavi a{border-color:#d1d7db;color:#555}
+.schoolRole .pageNavi .page_prev,.schoolRole .pageNavi .page_next{background-color:#4dadc6;color:#fff; border:none; }
+.schoolRole .pageNavi .curr{color:#fff;background:#ff9c00}
+.schoolRole .pageNavi .nolink{background:#999}
+.schoolRole .pageNavi .page_go{color:#fff !important; background-color:#4dadc6}
+
+.schoolRole .tabItem.selected{color:#98dbee}
+/******测试*****/
+.teacherRole .btnColorSearch{ background:#7e532c}
+.schoolRole .fixedRight a:hover,.schoolRole .fixedRight a.active,.management .fixedRight a.active,.management .fixedRight a.active{background:#4dadc6;color:#fff}
+.schoolRole .fixedRight a.prev,.schoolRole .fixedRight a.next,.management .fixedRight a.prev,.management .fixedRight a.next{height:0;width:0; border:65px solid #4dadc6; border-top-width:25px; border-bottom-width:25px;background:none}
+
+.parOrChildRole .fixedRight a:hover,.parOrChildRole .fixedRight a.active,.parOrChildRole .fixedRight a.active,.parOrChildRole .fixedRight a.active{background:#2dbe60;color:#fff}
+.parOrChildRole .fixedRight a.prev,.parOrChildRole .fixedRight a.next,.parOrChildRole .fixedRight a.prev,.parOrChildRole .fixedRight a.next{height:0;width:0; border:65px solid #2dbe60; border-top-width:25px; border-bottom-width:25px;background:none}
+.parOrChildRole .fixedRight a.prev,.management .fixedRight a.prev,.schoolRole .fixedRight a.prev{border-top:0; border-right-color:transparent; border-left-color:transparent; margin-bottom:10px}
+.parOrChildRole .fixedRight a.next,.management .fixedRight a.next,.schoolRole .fixedRight a.next{border-bottom:0; border-right-color:transparent; border-left-color:transparent; margin-top:10px}
+.parOrChildRole .btnColorSearch{ background:#2dbe60}

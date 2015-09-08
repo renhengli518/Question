@@ -1,0 +1,238 @@
+
+/*   专递课堂直播     */
+.watch_play{width: 100%;height: 675px;position: relative;}
+.watch_play span{position: absolute;bottom: 20px;left: 0;color: #fff;}
+.classroom_left{width: 850px;margin-right: 24px;float: left;margin-top: 20px;}
+.classroom_right{width: 326px;float: left;}
+.classroom_right h3{color: #758d94;font-size: 24px;font-weight: normal;height: 38px;line-height: 32px;margin-top: 22px;}
+.classroom_left .watch_play{height: 524px;}
+.classroom_left .watch_play_name{bottom:37px;height: 31px;left:23px;line-height: 31px;padding: 0 10px;right: inherit;text-align: center;}
+
+.titleBar{position:relative; border-bottom:1px solid #d5f2df ;font-size:24px;color:#758d94}
+.title-1{display:inline-block; position:absolute; bottom:-1px; border-bottom:1px solid red}
+.relatedResBox .prevBtn, .relatedResBox .nextBtn {color: #6b90da;font-family: sans-serif;font-size: 70px;width: 20px;position: absolute;height:204px;width: 34px;background-image: url(../../img/common/photo_btn_bg.png);line-height: 192px;}
+.relatedResBox .nextBtn{right: 0px;}
+.commonBox{position: relative;}
+.rollBox {overflow: hidden;margin-top:10px;}
+.rollList {height: 115px;width: 3000000px;}
+.rollList li {border: 1px solid #ecf0ee;float: left;width: 157px}
+.rollList li img {height:192px;width: 137px;}
+.discussResBox textarea {height: 80px;width: 100%;padding: 0px;}
+.discussBox li {border-bottom: 1px solid #ccc;}
+.video_timeline{width:326px;height: 167px;background-color: #f4f8fb;margin-top: 10px;border-top: 1px #6ecf92 solid;overflow-x: hidden;overflow-y: scroll;}
+.video_timeline li{width: 314px;background-color: #c3c7ca;color: #fff;height: 26px;line-height: 26px; margin: 4px 6px 3px;float: left;text-indent: 15px;}
+.video_timeline li span{float: right;margin-right: 20px;}
+.video_timeline li.choose{background-color:#2dbe60;}
+
+.view_right_h3{}
+.view_right_h3 span{color:#758d94}
+.commonList dl{border: none;}
+.resourceList dd p i{background-image: url(../../img/common/play_icon.png);width: 13px;height: 13px;display: inline-block;}
+.resourceList dd p a{margin: 0 5px 0 14px;}
+.resourceList dd p label{color: #333333;}
+.play_right_detail{border-top: 1px #6cce90 solid;background-color: #f4f8fb;}
+.play_right_detail li label.text{text-align:right;}
+.play_right_detail li label.text{color: #888888;}
+.play_right_detail li span{color: #444444;padding-left: 5px;border-bottom: 1px dotted #999999;margin-right: 20px;min-height: 24px;}
+.play_right_detail li:last-child span{border-bottom:none}
+
+.classroom_span1{color: #7e532c;font-size: 18px;height: 38px;display: inline-block;line-height: 30px;}
+.brown .gn-title-1{color: #333333;border-bottom: 2px solid #34a150;height: 40px;line-height: 36px;}
+.color_grey .gn-title-1{color: #758d94;}
+.title_top{ margin-bottom: 10px;margin-top: -23px;}
+.cont_school{color: #2dbe60; margin-right: 10px;}
+.cont_teacher{color: #444;}
+.cont_timer{color: #888;margin-left: 40px;}
+.cont_del{color: #c80000;margin-right: 26px;float: right;}
+.discuss_p{font-size: 16px;font-weight: bold;height: 48px;line-height: 50px;}
+.sublime_btm{font-size: 18px;float: right; padding: 0 10px;margin-top:7px;}
+.discussBox{margin-top: 47px;}
+
+.live_span1{color: #666;}
+.public_lesson_left{width: 910px;float: left;}
+.public_lesson_right{width:270px;float: left;margin-left: 20px;background-color: #fff;}
+.gn-titleBar{height: 48px;}
+.public_lesson_left h2{font-size: 22px;color: #333;text-align: center;font-weight: normal;height: 70px;line-height: 68px;}
+.lesson_left_title{border-bottom: 2px solid #2dbe60;color: #444;height: 37px;margin: 0 15px;}
+.lesson_left_title p{text-align: center;}
+.lesson_left_title label{margin-right: 20px;}
+.wrap_plen label,.wrap_plen .btnGreen{display:inline-block;overflow:hidden;}
+.wrap_plen .plen_z{width:200px;white-space:nowrap;text-overflow:ellipsis;}
+
+.public_state{float: right;color: #ff0000;margin-top: -22px;}
+.lesson_btn1{float: right;margin-right: 16px;margin-top: -22px;}
+.lesson_btn{float: right;margin-right: 9px;margin-top: 15px;padding: 2px 9px;text-indent: 0;}
+.public_top{background-color: #fff;}
+.public_top .commonUL .cont input{line-height: 26px;margin-right: 10px;vertical-align: sub;}
+.public_top .gn-titleBar{margin: 0px 15px;font-size: 20px;}
+.public_top .gn-title-1{border-bottom: 2px #f7ab00 solid;}
+.about_doc .gn-titleBar{margin: 0px 15px;font-size: 20px;}
+.about_doc .gn-title-1{border-bottom: 2px #f7ab00 solid;}
+
+.list div label {color: #000;}
+.tag_Left{width: 733px;float: left;margin-left: 35px;}
+.list_border{border: 1px #e4e4e4 solid;float: left;width: 100%; margin-bottom: 21px;padding-bottom: 11px;margin-top: -2px;}
+.tableBox,.choose_Right{float: left; margin-bottom: 20px;}
+.tableBox th, .tableBox td{text-align: center;}
+.easy_tab{display: inline-block;height: 47px;}
+.sortBox a{display: inline-block;width: 155px;height: 45px;color: #444;border-radius:0px;font-size: 18px;text-align: center;line-height: 45px;padding: 0px;}
+.sortBox .selected{background-color: #fff;background-image: url("../../img/test/sortBox_listbg.png");background-repeat: no-repeat;color: #444;padding: 0px;}
+.tag_Left{margin-left: 20px;}
+.tag_Left ul li{ height: 55px;line-height: 67px;}
+.choose_Right .btn{margin: 76px 0 0 135px;}
+#hostClass thead th,#joinClass thead th{border:1px #dae7e5 solid;color: #73a53f;background-color: #eff6e8;}
+#hostClass tbody tr td,#joinClass tbody tr td{border: 1px #dce8e6 solid;}
+#hostClass tbody tr:nth-child(2n+1) td,#joinClass tbody tr:nth-child(2n+1) td{background-color: #fafafa;}
+#inviteClassSpan .label_box{line-height: 40px;width: 100%;float: left;}
+#inviteClassSpan input{margin-left: 4px;}
+#inviteClassSpan .label_box label{margin-left: 14px;margin-right:10px;text-align: center;color: #888;}
+#addClassBtnWin .dialog_Cont p{float: right;color: #c3c3c3;}
+#addClassBtnWin #saveData,#addClassBtnWin #DataBack {background-color: #e57617;border: 1px solid #666666;font-size: 20px;height: 39px;line-height: 39px;width:122px;padding: 0px;}
+#addClassBtnWin #saveData{margin-right: 70px;}
+#addClassBtnWin #DataBack{background-color: #999999;}
+#addClassBtnWin .label_box .labelText{font-weight:bold;margin: 0px 10px;}
+.tag_Left .Wdate{width: 170px;}
+#startData{background-color: #72a53e; margin-top: 10px;}
+
+.public_top .starRate{vertical-align: text-bottom;}
+.public_top .commonUL li .starRate{margin-left: 6px;margin-right: 22px;}
+.public_top .commonUL li .detail{margin-right: 20px;color: #2dbe60;}
+.lesson_Info label{display: inline-block;height: 42px;line-height: 38px;margin: 0 49px;}
+.video_List{font-size: 20px;border-bottom: 2px #2dbe60 solid;color: #333;line-height: 58px;text-indent: 14px;}
+.video_List .prevBtn{background-image:url(../../img/test/res_left_video.png);width:16px;height:16px;position: absolute;right: 91px;top: 27px;}
+.video_List .nextBtn{background-image:url(../../img/test/res_right_video.png);width:16px;height:16px;position: absolute;right:42px;top: 27px;}
+.res_list_button{height: 20px;position: absolute;right: 64px;text-indent: 0;top: 18px;}
+.span_list_li{ background-color:#c5c5c5;border-radius: 50px;display: inline-block;height: 4px;line-height: 0;margin-left: 5px;vertical-align: text-top;width: 4px;cursor: pointer;}
+.span_list_li.choose{background-color:#222;}
+#class_Video_List .rollList li img{width:203px;height: 131px;}
+#class_Video_List .rollList li{position:relative;width: 204px; margin-left:17px;border: medium none;}
+.playing_nav{background-image:url(../../img/test/sortBox_list.png);width: 203px;height: 28px;line-height: 28px;color: #fff;text-indent:32px;position: absolute;bottom: 28px;left:0px;}
+#videoPrev{background-image:url(../../img/test/video_Left.png);width: 19px;height: 26px;position: absolute;top:55px;left:0px;}
+#videoNext{background-image:url(../../img/test/video_Right.png);width: 19px;height: 26px;position: absolute;top:55px;right:0px;}
+.playing_test{color: #444;text-align: center;display: inline-block;width: 100%;}
+.video_List_Discuss{border-bottom:1px #d5f2df solid;}
+.video_List_Discuss span{color: #333;display: inline-block;font-size: 19px;height: 47px;line-height: 52px;text-align: center;width: 96px;}
+.video_List_Discuss span.choose{border-bottom:2px solid #f7ab00;}
+.praise .click_icon{background-image: url(../../img/test/click_icon.png);display: inline-block;width: 20px;height: 17px;margin-right: 8px;vertical-align: sub;}
+.common_border{border:1px #2dbe60 solid;}
+.common_border textarea{border: none;border-bottom: 1px #ddd solid;text-indent: 5px;}
+.in_Font{color: #666;display: inline-block;height: 46px;line-height: 49px;text-indent: 20px;}
+.in_Font label{color: #c80000;}
+.font_submit{background-color: #2dbe60;float: right;margin: 11px 11px 0 0;padding: 1px 15px;}
+
+.al_collection{background-position: 0 -34px;}
+.totalPageBox{color: #9c9c9c;font-size: 14px;margin-top: 5px;}
+.totalPageBox .totalNum{background-color: #3399cc;font-size: 15px;height: 20px;line-height: 20px;margin-right:10px;padding: 0 12px;position: relative;text-align: center;color: #fff;}
+.totalPageBox i{border:5px solid transparent;border-left-color:#3399cc;position: absolute;right: -10px;top: 5px;}
+.totalPageBox label{color: #666;font-size: 16px;margin-right:15px;}
+.res_right .totalNum i{border:5px solid transparent;border-left-color:#3399cc;position: absolute;right: -10px;top: 5px;}
+.res_right .totalNum{background-color: #3399cc;font-size: 15px;height: 20px;line-height:15px;margin-right:10px;padding: 0 12px;position: relative;text-align: center;color: #fff;margin-top: 0px;}
+#commentbody .text a img{margin-top: 5px;}
+#commentbody li{margin-bottom: 20px;padding: 20px 0;}
+#commentbody li .cont{margin-right: 20px;}
+#commentbody li .text{margin-right: 22px;width: 90px;}
+.video_Choose_Second{display: none;}
+.about_doc{margin:15px 0px;background-color: #fff;width: 100%; padding-bottom: 25px;}
+.about_doc ul li {float: left;height: 40px;line-height: 40px;text-align: center;border-bottom: 1px #d1d7db solid}
+.about_doc ul {display: inline-block;margin:-2px 20px;padding: 0px;height: 40px;}
+.lesson_Suc{height:167px;overflow-y:auto;margin-top: 20px;}
+.lesson_Suc ul:nth-child(2n){background-color: #fafafa;}
+.join_box{margin-bottom: 10px;}
+
+.res_operation{float: left;border-top: 1px #ddd solid;width: 380px;margin: 20px 0 0 29px;}
+#class_Video_List .res_rolllist li img{width: 140px;height: 78px;margin-right: 18px;}
+#class_Video_List .res_rolllist li{width: 140px;height: 78px;margin-right: 18px;margin-left: 0px;}
+
+/*   资源详细    */
+.res_left_content{width:779px;float: left;margin-top: 37px;}
+.res_right_content{width: 381px;float: left;margin-left:40px;}
+.res_right_content .video_List{border-bottom: 2px solid #ddd;}
+.res_left_content .video_List{border-bottom: 2px solid #ddd;}
+.res_discuss_span{color: #666;font-size: 20px;margin-right: 11px;}
+.watch_num{float: right;margin-right: 4px;}
+.about_res{border-bottom: 2px solid #2dbe60;height: 47px;line-height: 52px;width: 96px;font-size: 20px;margin-left: -13px;vertical-align: sub;color: #666;}
+.commonUL li label.label_num{line-height: 29px;margin-left: 21px;text-align: left;width: 44px;}
+.point_num{display: inline-block;vertical-align: middle;margin-left: 5px;color:#c80000;}
+.res_top{float: left;width: 100%;}
+.res_top .watch_play{width: 779px;height: 468px;float: left;}
+.res_right{width: 421px;float: left;margin-top: -62px;}
+.res_right .res_detail_detail li{float: left;overflow: hidden;width: 229px;padding: 4px 0px;}
+.res_right .res_detail_detail li .cont{height: 121px;overflow: visible;width: 378px;}
+.res_right .res_detail_detail li span{border-bottom: none;}
+.res_crumbs .crumbs_list{color: #666;background-position: right 5px;font-size: 16px;}
+.res_crumbs{border-bottom: 1px #ddd solid;}
+.res_detail_detail{background-color: #fff;float: left;height: 466px;}
+.res_detail_detail ul{margin-top:6px;}
+.res_opera_num{display: inline-block;float: left;margin-left: 5px;color:#c80000;margin-top: 7px;}
+.res_detail_detail li label.text{margin-right: 12px;text-align: left;width: auto;color: #888;}
+.res_detail_detail li{margin-left: 34px;}
+.res_detail_detail li:nth-child(2n+1){ width: 126px;}
+#res_commentbody{margin-top: 30px;}
+#res_commentbody img{display: inline-block;height: 40px;margin-right: 11px;margin-top: 9px;vertical-align: top;width: 40px;}
+#res_commentbody .cont{display: inline-block;width: 721px;}
+#res_commentbody li{border-bottom: 1px #ddd solid;}
+.discuss_name{color: #3399cc;margin-right:15px;}
+.discuss_timer{color: #888;}
+  
+.res_down{background-color:#ff9303;float: right;margin: 12px 5px 0 0;padding: 4px 18px;}
+.collection{background-image: url("../../img/test/collection.png");width: 92px;display: inline-block;height:24px;margin-top: 18px;}
+
+.last_crumbs{color: #222;font-size: 16px;}
+.res_movies_name{height: 54px;line-height: 54px;color: #666;font-weight: bold;font-size: 24px;text-indent: 22px;}
+.tabMenu {display: inline-block;font-size: 20px; margin:12px;}
+.tabItem:first-of-type {margin-left: 10px;margin-right: 8px;}
+.tabItem {color: #888;display: inline-block;height: 38px;text-align: center;width: 50px;}
+.tabItem.selected {background:url("../../img/workplace/selectedArrow.png") no-repeat scroll center bottom;color:#2dbe60;}
+.totalNum {color: #9c9c9c;display: inline-block;font-size: 14px;height: 20px;line-height: 20px;margin-top: 14px;padding: 0;}
+.onlineNum {background: #3399cc none repeat scroll 0 0;color: #fff;display: inline-block;height: 20px;padding: 0 10px;}
+.hotresource .watch_num i{background-image: url("../../img/test/preview.png");display: inline-block;width: 14px;height: 8px;margin-right: 8px;}
+.hotresource dt img{width: 114px;height: 64px;}
+.hotresource .res_name{color: #3399cc;font-size: 14px;margin-left: 10px;}
+.hotresource .hot_res_name1{color: #444;font-size: 16px;height: 33px;line-height: 39px;}
+.hotresource .hot_res_name2{color: #878787;font-size: 14px;}
+.hotresource dd p{color: #878787;height: 28px;line-height: 28px;}
+.hotresource dd p::first-of-type{color: #444;}
+.talkDetailBox {height: 282px;margin-bottom: 77px;overflow: auto;width: 400px;}
+.talkDetailBox a, .talkDetailBox img {display: block;height: 40px;width: 40px;}
+.talkDetailBox .avatar {float: left;}
+.talkDetailBox .self .avatar {float: right;}
+.talkDetailBox .contBox {background: #fff none repeat scroll 0 0;border: 1px solid #dfdfdf;border-radius: 5px;float: left;margin: 0 0 0 10px;max-width: 182px;padding: 5px;position: relative;}
+.talkDetailBox .arrowBox {background:url("../../img/workplace/arrow_icon.png") no-repeat scroll 0 0;left: -10px;position: absolute;top: 6px;width: 10px;}
+.talkDetailBox .self .contBox {float: right;margin: 0 10px 0 0;}
+.talkDetailBox .self .arrowBox {background-position: 0 -25px;left: auto;right: -10px;}
+.avatorBox {position:absolute;top:293px;}
+.avatorBox .rollMenu {display: none;height: 20px;position: absolute;text-align: center;width: 40px;}
+.avatorBox .full {display: block;}
+.talkClick{background-image: url("../../img/test/avatorBox_bg.png");width: 24px;height: 65px;float: left;cursor: pointer;}
+.avatorBox_clcik_bg{background-image: url("../../img/test/avatorBox_clcik_bg.png");width: 26px;height: 65px;float: left;cursor: pointer;}
+.verticalRollList{background-color: #3e3e3e;float: left;height: 65px;width: 380px;overflow-y: hidden;}
+.verticalRollList_width{height: 65px;margin-right: -3000060px;float: left;}
+.verticalRollList a{height:40px;width: 63px;float: left;}
+.verticalRollList img{height:40px;height: 40px;margin-left: 20px;margin-top: 8px}
+#downMenu {bottom: 5px;}
+#upMenu {top: 0;}
+#talkBox{background-color: #fff;width: 407px;position: relative;}
+#talkBox .talkAreaBox{background-color: #f6f6f6; margin-bottom: 10px;}
+.down-roll-menu {bottom: 5px;}
+.up-roll-menu {top: 0;}
+.talkDetailBox img.smile-icon {display: inline;height: 25px;width: 25px;}
+.talkTextareaBox textarea {  height: 55px;width:394px;border: none;}
+.talkButton{background-color: #f6f6f6;width: 400px;border-top: 1px #ddd solid;}
+.talk-send{width: 78px;height: 23px;line-height: 23px;border-left: 1px #ddd solid;text-align: center;}
+.talkTextareaBox{border: 1px #2dbe60 solid;width: 402px;}
+.talkTextareaBox .faceBtn, .talkTextareaBox .imgBtn {background: rgba(0, 0, 0, 0) url("../../img/workplace/talk_icon.png") no-repeat scroll 0 0;display: inline-block;height: 24px;width: 24px; margin-left: 16px;}
+.talkTextareaBox .imgBtn {background-position: -40px 0;}
+#smileBox {background:url("../../img/face/bg_face.png") no-repeat scroll 0 0;padding: 6px;position: absolute;z-index: 100;}
+#smileBox ul {height: 191px;overflow: hidden;width: 248px;}
+#smileBox li {float: left;}
+#smileBox li img {border: 1px solid #fff;cursor: pointer;display: block;padding: 2px;width: 25px;}
+#smileBox li img:hover {border-color: #dfe6f6;}
+.res_chat_num{margin: 22px 0 0;display: none;}
+
+.showBox{float: left;width: 820px;}
+#classInfoBox h4{color: #2dbe60;border-bottom: 1px #ddd solid;padding: 0px 5px;font-weight: normal;}
+.evainprogess li{color:#444}
+.evainprogess .online-user span.state{background-color: #ff9303;width: 50px;height: 20px;line-height: 20px;color: #fff;}
+.evainprogess li b{color: #888;font-weight: normal;}
+.latestComment{background-color: #f6f6f6;color: #4dadc6;text-align: center; margin-bottom: 12px;}
+#discussBoxId .avatar img{width: 40px;height: 40px;margin-right: 16px;margin-top: 5px;}

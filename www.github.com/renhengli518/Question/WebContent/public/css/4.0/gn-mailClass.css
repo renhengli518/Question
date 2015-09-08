@@ -1,0 +1,17 @@
+.pd20{padding:20px}
+.container{background:none}
+.tableBox thead th{border-top-width:0px;font-weight:bold}
+.tableBox thead th{border-top:none}
+.gn-classDate{font-size:18px;color:#34a150; border-bottom:2px solid #ddd}
+.gn-SortBoxSel {
+    border: 1px solid #dfdfdf;
+    height: 25px;
+    line-height: 25px;
+    width: 150px;
+}
+/*远程导播*/
+.gn-greenBgTab .gn-sortBox a{color:#663300}
+.gn-sortBox a.gn-sortAll { color: #fff;}
+.gn-greenBgTab .gn-sortBox .selected, .gn-greenBgTab .gn-sortBox a:hover{background:#2dbe60}
+td .gn-blue{color:#26709c}
+.gn-coffeeDate{color:#7e532c}

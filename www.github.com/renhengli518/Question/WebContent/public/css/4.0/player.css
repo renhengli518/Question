@@ -1,0 +1,199 @@
+.header_title p{float: left;color:#666666;font-size: 14px;height: 33px;line-height: 33px;}
+.header_title p select{width: 230px;height:33px;}
+.header_title .w300{margin:0px 0px 0px 27px;}
+.frame_left{float: left;background-color: #292929;width:246px;height: 100%;}
+
+.frame_lefttop{background-color: #171616;margin: 8px 6px 0;height: 248px;}
+.video_choose{margin-left: 13px;margin-top: 8px;width: 350px;}
+.video_choose select{width:100%;margin: 16px 0 10px;}
+
+.video_time{ background-color: #171616;float: left;margin-left: 6px;margin-top: 5px;position: relative;width: 234px;}
+.video_time p{background-color: #686868;font-size:14px;height:32px;line-height:32px;text-align: center;border-bottom: 1px #474747 solid;color: #fff;width: 233px;}
+.video_time li{color: #fff;height:32px;line-height:32px;text-indent:10px;font-size:14px;font-weight: bold;background-color: #424242;width: 193px;margin-top: 8px;}
+.video_time li.choose{background-color:#2dbe60}
+.video_time li span{float: right;margin-right: 37px;}
+.video_time ul{ height: 296px;margin: 0 0 0 13px;overflow-x: hidden;overflow-y: scroll;position: relative;z-index: 22;}
+
+.btnrect{width: 180px;height: 33px;line-height: 33px;border-radius: 10px;float: left;border: 1px #bfbebd solid;background-color: #bfbebd;margin: 0 0 0 81px;}
+.btn.btnOrange{float:right;height:26px;line-height:26px;width: 86px;margin-top: 4px;margin-right: 5%;}
+
+.frame_right{background-color:#ccc;height:535px;overflow: hidden;position: relative;width: 953px;float: left;}
+.flash_right{height:100%;position:relative;overflow: hidden;}
+.content{width: 100%;float: left;height: 100%;overflow: hidden;}
+.video_left0,.video_left1{width:233px;height:130px;float: left;}
+.video_left1{height: 0px;}
+.mejs-controls {
+    background-color: #000;opacity: 0.7;
+    bottom: 0;
+    height: 68px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.mejs-controls .mejs-button button {
+    background-image:url("../../img/player/controls.png");
+    background-color:transparent;
+    background-position: -141px 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 29px;
+    width: 29px;
+}
+.stopfile{background-image:url("../../img/player/controls.png");background-position: -180px -28px;cursor: pointer;left:52px;position: absolute;top: 12px;height: 29px;width: 29px;}
+.mejs-controls div.mejs-playpause-button {
+    left: 15px;
+    position: absolute;
+    top: 12px;
+}
+.mejs-controls .mejs-pause button {
+    background-position: -180px 0px;
+}
+.mejs-controls div.mejs-volume-button {
+    position: absolute;
+     right: 148px;
+    top: 16px;
+}
+.mejs-controls .mejs-volume-button button {
+    background-position: -59px 0;
+    height: 20px;
+    width: 13px;
+}
+.mejs-controls .volume-empty button{background-position: -113px 0;width: 19px;}
+.mejs-controls .mejs-unmute button {
+    background-position: -12px -12px;
+}
+.mejs-controls .mejs-unfullscreen button {
+    background-position: -26px -22px;
+}
+.mejs-controls div.mejs-horizontal-volume-slider {
+    cursor: pointer;
+    position: absolute;
+    right: 62px;
+    top:18px;
+    width: 74px;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background: #d6d6d6 none repeat scroll 0 0;
+    width: 60px;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    border-radius: 2px;
+    height:10px;
+}
+.mejs-controls div.mejs-time-rail {
+    left: 0;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+.mejs-controls .mejs-time-rail span {
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.mejs-horizontal-volume-handle{
+     background-image: url("../../img/player/handle.png");
+    cursor: pointer;
+    height: 18px;
+    position: absolute;
+    top: -3px;
+    width: 16px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-total {opacity: 1
+}
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background-color: #24282c;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    width: 0;
+}
+.mejs-controls .mejs-time-rail .mejs-time-handle {
+    background-image: url("../../img/player/handle.png");
+    cursor: pointer;
+    height: 18px;
+    position: absolute;
+    top: -3px;
+    width: 16px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float {
+    background: url("../img/player/tooltip.png") repeat scroll 0 0;
+    display: none;
+    height: 23px;
+    margin-left: -17px;
+    position: absolute;
+    top: -26px;
+    width: 33px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float-current {
+    color: #666666;
+    display: block;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    display: none;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background-color: #678823;
+}
+.mejs-timer{font-size: 16px;left:101px;position: absolute;top:16px;}
+.mejs-timer{color: #6b6b6b;}
+
+#body1 #dialog_video,#body1 #dialog_video{display: none;}
+#body1 #dialog_video1,.flash_one,.flash_all{display:block;width: 100%;height:89%;}
+#body2 #dialog_video1,#body2 #dialog_video2{display: block;float: left;height: 40%;margin:12% 5%;width: 39%;}
+#body3 #dialog_video1,#body3 #dialog_video2,#body3 #dialog_video3{display: block;position: absolute; height:36%;width:35%;}
+#body3 #dialog_video1{left: 10%;top: 5%;}
+#body3 #dialog_video2{right: 10%;top:5%;}
+#body3 #dialog_video3{left:30%;bottom:17%;}
+#body4 #dialog_video1,#body4 #dialog_video2,#body4 #dialog_video3,#body4 #dialog_video4{display: block;position: absolute; height:36%;width:35%;}
+#body4 #dialog_video1{left: 10%;top:5%;}
+#body4 #dialog_video2{right: 10%;top:5%;}
+#body4 #dialog_video3{left:10%;bottom: 15%;}
+#body4 #dialog_video4{right:10%;bottom: 15%;}
+#body5 #dialog_video1,#body5 #dialog_video2,#body5 #dialog_video3,#body5 #dialog_video4,#body5 #dialog_video5{display: block;position: absolute;width: 26%;height:17%;}
+#body5 #dialog_video1{left:3%;top:2%;}
+#body5 #dialog_video2{left:3%;top:24%;}
+#body5 #dialog_video3{left:3%;top:46%;}
+#body5 #dialog_video4{left:3%;top:68%;}
+#body5 #dialog_video5{height:83%;right: 2%;top: 2%;width: 67%;}
+#body6 #dialog_video1,#body6 #dialog_video2,#body6 #dialog_video3,#body6 #dialog_video4,#body6 #dialog_video5,#body6 #dialog_video6{display: block;position: absolute;width:31%;height:24%;}
+#body6 #dialog_video1{left:3%;top:2%;}
+#body6 #dialog_video2{left:3%;top:32%;}
+#body6 #dialog_video3{left:3%;top:61%;}
+#body6 #dialog_video4{left:35%;top:2%;}
+#body6 #dialog_video5{left:67%;top:2%;}
+#body6 #dialog_video6{height: 53%;right: 2%;top: 32%;width: 63%;}
+#body7 #dialog_video1,#body7 #dialog_video2,#body7 #dialog_video3,#body7 #dialog_video4,#body7 #dialog_video5,#body7 #dialog_video6,#body7 #dialog_video7{display: block;position: absolute;width:26%;height:24%;}
+#body7 #dialog_video1{left:3%;top:2%;}
+#body7 #dialog_video2{left:31%;top:2%;}
+#body7 #dialog_video3{left:3%;top:32%;}
+#body7 #dialog_video4{left:31%;top:32%;}
+#body7 #dialog_video5{left:3%;top:62%;}
+#body7 #dialog_video6{left:31%;top:62%;}
+#body7 #dialog_video7{height:53%;right: 2%;top: 21%;width: 39%;}
+#body8 #dialog_video1,#body8 #dialog_video2,#body8 #dialog_video3,#body8 #dialog_video4,#body8 #dialog_video5,#body8 #dialog_video6,#body8 #dialog_video7,#body8 #dialog_video8{display: block;position: absolute;width:23%;height:20%;}
+#body8 #dialog_video1{left:3%;top:2%;}
+#body8 #dialog_video2{left:27%;top:2%;}
+#body8 #dialog_video3{left:51%;top:2%;}
+#body8 #dialog_video4{left:75%;top:2%;}
+#body8 #dialog_video5{left:3%;top:24%;}
+#body8 #dialog_video6{left:3%;top:46%;}
+#body8 #dialog_video7{left:3%;top:68%;}
+#body8 #dialog_video8{height: 64%;right: 2%;top: 24%;width: 71%;}

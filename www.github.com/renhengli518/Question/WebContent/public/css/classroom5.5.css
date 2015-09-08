@@ -1,0 +1,589 @@
+@charset "utf-8";
+html,body{overflow:hidden;}
+body{background:#73a53f; }
+.cocoWrap{position:absolute;width:1px;height:1px;overflow:hidden;}
+.header{position:fixed;left:0;width:100%;height:32px;background:#fff;z-index:2000;padding:5px 0;box-shadow:0 5px 5px rgba(0,0,0,0.2);}
+.midd{height:72px;padding-top:20px;display:block;overflow: hidden;zoom:1;border-top:1px solid #888a95;border-bottom: 1px solid #5c5f76;}
+.wrapper{width: 1000px;margin:0 auto; overflow: hidden;zoom:1;}
+.contain{overflow: hidden;zoom:1;margin:0 auto;}
+
+/* header */
+.headerInner{margin:0 auto;min-width: 1005px;}
+.headerHide{visibility:hidden;}
+.closeBtn{float:right;width:34px;height:34px;background:url(../img/green/end.png) no-repeat;text-indent:-1000px;overflow:hidden;display:inline;}
+.modeType{padding-left:6px;}
+.modeType a{display:inline-block;width:100px;padding-left:30px;height:34px;line-height:32px;font-weight:bold;border:1px solid #666;border-radius:5px 5px 0 0;text-align:center;color:#fff;font-size:18px;}
+#videoBtn{background-position:12px 10px;}
+#domeBtn{background-position:12px -30px;}
+#vgaBtn{background-position:12px -70px;}
+
+.moreWrap{
+	position:relative;
+	float:right;
+	display:inline;
+	margin-right:150px;
+	margin-top: 2px;
+}
+.moreWrap #moreOpts{
+	background-color:#62972f;
+	width:100px;
+	padding-left:30px;
+	height:30px;
+	line-height:28px;
+	font-size:18px;
+	font-weight:bold;
+	background-image:url("../img/green/ctrlIcon.png");
+	background-repeat:no-repeat;
+	background-position:12px -114px;
+	text-indent: 10px;
+}
+#moreApps{
+	position: absolute;
+	left: 0;
+	top: 29px;
+	padding-top: 10px;
+	z-index: 999999;
+}
+#moreApps.hidden{display:none;}
+#moreApps .arrow{position:absolute;top:0;left:70px;width:11px;height:11px;background:url(../img/green/top_arrow.png) 0 0 no-repeat;}
+#moreApps ul{width:150px;border:1px solid #3c413a;background:#73a53f;}
+#moreApps ul.menuSync{border-radius:0;box-shadow:none;}
+#moreApps li{height:44px;line-height:44px;text-align:justify;text-justify:inter-ideograph}
+#moreApps a{display:block;padding-left:40px;color:#536074;zoom:1;font-size:16px;font-weight:bold;color:#fff;text-shadow:1px 1px 1px #568c36;}
+
+#moreApps #setPad{background:url(../img/green/user_more01.png) 10px center no-repeat;}
+#moreApps #interactModeBtn{background:url(../img/green/user_more02.png) 10px center no-repeat;}
+#moreApps #addBranchBtn{background:url(../img/green/user_more03.png) 10px center no-repeat;}
+#moreApps #openRecordFileBtn{background:url(../img/green/user_more04.png) 10px center no-repeat;}
+#moreApps #talkSetBtn{background:url(../img/green/user_more05.png) 10px center no-repeat;}
+#moreApps #picModeBtn{background:url(../img/green/user_more06.png) 10px center no-repeat;}
+#moreApps #winModeBtn{background:url(../img/green/user_more07.png) 10px center no-repeat;}
+
+
+
+
+#moreApps li:hover{background:-moz-linear-gradient(top, #84ba4a, #669334);}
+#moreApps a:hover{text-shadow:0;color:#eee;}
+#moreApps a.disabled{color:#999;}
+/*
+#moreApps #addBranch{background-position:8px 10px;}
+#moreApps #setPad{background-position:8px -28px;}
+#moreApps #setRecord{background-position:8px -68px;}
+#moreApps #talkSet{background-position:8px -108px;}
+*/
+.support{float:right;padding:5px 10px 0 0;text-shadow:1px 1px 1px #ccc;font-size: 16px;color: white;}
+
+.myWrapOuter{}
+.edge {display: inline-block;height: 100%;vertical-align: middle;width: 0;}
+
+.ctlBtn{position:absolute;z-index:2;display:none;right:40px;bottom:5px;width:26px;height:25px;overflow:hidden;line-height:21px;text-indent:-1000px;color:#ceebff;background:url(../img/green/audio.png);cursor:pointer;}
+.focusBtn{display:block;}
+.vgamodeBtn{background:url(../img/green/vga.png);}
+.fullSpeaker .ctlBtn{display:block;background:url(../img/green/audio2.png);}
+.currInterSpeaker .vgamodeBtn{display:block;background:url(../img/green/vga2.png);}
+/*
+.hoverBtn{background:url(../img/green/audio2.png);}
+.hoverBtn.vgamodeBtn{background:url(../img/green/vga2.png);}
+*/
+
+.state .videoCont{border:2px solid #3179ab;box-sizing: border-box;-webkit-box-shadow: -2px 0 5px #5483a9,0 -2px 5px #5483a9,0 2px 5px #5483a9,2px 0 5px #5483a9;-moz-box-shadow: -2px 0 5px #5483a9,0 -2px 5px #5483a9,0 2px 5px #5483a9,2px 0 5px #5483a9;box-shadow: -2px 0 5px #5483a9,0 -2px 5px #5483a9,0 2px 5px #5483a9,2px 0 5px #5483a9;}
+.say,.noSay{float:right;background:url('../img/ui/ui_btn_26.gif') no-repeat 0px 0;color:#7c9ab0;font-size:12px;text-indent: 22px;width:74px;height:20px;line-height: 20px;cursor:pointer;}
+.noSay{background-image:url('../img/ui/ui_btn_25.gif');color:#48a4e4;}
+.wrap1x3{width:440px;height:250px;}
+.wrapMain{height:480px;}
+.mt{margin-top:25px;}
+
+#publishBox,#transferObject{width:1px;height:1px;overflow:hidden;position:absolute;}
+#publishBox{
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	position:absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 1000;
+	line-height: 1;
+}
+#publishBox.show{
+	width:320px;
+	height:180px;
+	line-height: 1;
+	background-color: white;
+}
+#SmartPublisher{position:absolute;}
+
+.myWrapper{
+	padding-top:41px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+	background:#73a53f;
+}
+.videoCont {
+    border: 1px solid #55792E;
+    box-shadow: 2px 2px 5px #517c25, -2px -2px 5px #517c25;
+    margin: 4px;
+    position: relative;
+    z-index: 1;
+}
+.videoWrap{
+	float: left;
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+#wrapper_all0 .videoWrap{width:95%;}
+.currSpeaker {box-shadow:8px 0 8px #E47617,0 8px 8px #E47617,-8px 0 8px #E47617,0 -8px 8px #E47617,0 0 16px #E47617;}
+.currSpeaker .videoCont{border-color:#E47617;}
+.currSpeaker .ctlBtn{display:block;}
+.videoWrap h5,#bigvideoWrap h5{position:absolute;z-index:2;bottom:3px;left:5px;line-height:30px;font-size:25px;color:#fff;text-shadow:1px 1px 1px #333;font-family:"方正魏碑";}
+.emptyBox{display:inline;width:100%;height:100%;}
+.bg{position:absolute;background:#73a53f url("../img/green/bg.png") 50% 50% no-repeat;z-index:-1;top:0;left:0;width:100%;height:100%;vertical-align:middle;text-align:center;font-size:60px; color: rgba(255,255,255,.2);font-family:"Arial";font-size:150px;}
+
+.fullMode .videoWrap{position:absolute;top:-1500px;left:-1500px;}
+.fullMode .fullSpeaker{top:0 !important;left:0 !important;width:100% !important;height:100% !important;z-index:10;}
+.mainRoom.fullMode .fullSpeaker{top:40px !important;}
+
+#ePad{position:absolute;z-index:2001;left:0;top:0;width:100%;background:#FFF;height:100%;overflow:hidden;visibility:hidden;}
+#docPad{position:absolute;z-index:9;}
+.closePad{position:absolute; z-index:10; top:8px;right:5px;  font-size: 0;height: 26px; line-height: 0; overflow: hidden;  width: 26px; background:url("../img/green/close.png") no-repeat scroll 0 0 rgb(0, 0, 0);}
+.padMasker{position:absolute; width:100%;height:100%;z-index:11;}
+
+
+/* 分课堂 */
+.branchContainer .header{background:#73a53f}
+.branchContainer #talkSet{float:right;display:inline;margin-right:10px;margin-top: 5px;}
+.branchContainer #videoSet{margin-top: 5px;}
+.header .title{color:#fff;font-size:16px;height:33px;line-height:33px;font-weight:bold;padding-left:10px;text-shadow: 1px 1px 1px #ccc;}
+.adminContainer .title{color:#647344;}
+.branchContainer .closeBtn{background-image:url(../img/green/end2.png); margin-right:15px;}
+.adminContainer .quitBtn{float:right;}
+.branchContainer .videoWrap{width:100px;height:100px;position:absolute;top:-500px;left:-500px;}
+.branchContainer .videoCont{border:0;background:#73A53F;}
+#bigvideoWrap{position:relative;height:700px;box-shadow:5px 5px 10px #517c25, -5px 0 10px #517c25;}
+.player2ModulePlugin #bigvideoWrap{box-shadow: none;margin: 0 auto;}
+.player2ModulePlugin  .videoCont{margin: 0 auto;}
+.network {position: absolute; top: 2px; right: 2px;width: 36px; height: 25px;display: none;background:url("../img/green/network.png") no-repeat 0 0 ;}
+.branchContainer .network {right: 5px;top: 6px;z-index: 1000;}
+.network1 {background-position:0 -5px;display: block;}
+.network2 {background-position:0 -35px;display: block;}
+.network3 {background-position:0 -65px;display: block;}
+.network4 {background-position:0 -95px;display: block;}
+.network5 {background-position:0 -125px;display: block;}
+.networkWarp {text-align: center;}
+.networkBox {color: #666666;display: inline-block;text-align: left;}
+.networkBox .networkLow{color:#FB7A6D;}
+.networkBox .networkBtns{text-align: center;}
+.networkBox .networkCkBox{display: inline-block;background-image:url(../img/green/ckbox2.png);width:25px;cursor:pointer;}
+.networkBox .networkCkBox.sel{background-image:url(../img/green/ckbox1.png);}
+
+/* 视频共享 */
+#vsContent,#rdContent{position:absolute;visibility:hidden;width:1px;height:1px;top:0;}
+#vsPanel,#rdPanel{position:absolute;z-index:2001;left:0;top:0;width:100%;background:#FFF;height:100%;overflow:hidden;}
+#vsSwf{position:absolute;z-index:1;left:0;top:0;}
+#vsControl,#rdControl{height:48px;}
+.range{position:relative;background:#555;border-radius:3px;}
+.mea{cursor:pointer;position:absolute;overflow:hidden;zoom:1;background:#fff;border:1px solid #aaa;}
+#vsTimeRange{height:6px;line-height:6px;}
+#vsTimeMea{left:0;top:-5px;width:16px;height:16px;border-radius:8px;}
+.vsBar,.rdBar{position:relative;padding:10px 10px 5px;}
+.vsButton,.vsStop,.rdStop{display:inline-block;width:29px;height:29px;cursor:pointer;background:url(../img/speakvideo/player.png) 0 0 no-repeat;vertical-align:middle;}
+#vsPause{background-position:0 -30px;}
+#vsStop,#rdStop{background-position:0 -60px;}
+
+.vsTime{font-weight:lighter;display:inline-block;margin-left:10px;color:#333;font-size:13px;vertical-align:middle;}
+.vsSoundWrap{position:absolute;right:10px;top:20px;width:60px;padding:3px 0 5px 20px;background:url(../img/speakvideo/sound.png) 0 0 no-repeat;}
+#vsSoundRange{height:4px;line-height:4px;width:60px;}
+#vsSoundMea{left:30px;top:-4px;width:8px;height:8px;border-radius:4px;}
+
+/* 文档 */
+.resources{display:none;position:relative;zoom:1;}
+#doclist .resources{display:block;}
+.resources .fileList{position:relative;overflow:auto;overflow-x:hidden;height:160px;border-bottom:1px dotted #c9c9c9;}
+.resources dl{position:relative;margin:0 0 5px 2px;overflow:hidden;height:20px;line-height:20px; }
+.resources dl dt{zoom:1;background:#fff url(../img/classroom/file2.gif) no-repeat;}
+.resources dl dt a{display:block;padding-left:22px;overflow:hidden;color:#5b90dc;word-wrap:break-word;blr:expression(this.onFocus=this.blur());outline: none;}
+.resources dt.doc,.resources dt.docx{background-position:0px 0;}
+.resources dt.xls,.resources dt.xlsx{background-position:0px -70px;}
+.resources dt.ppt,.resources dt.pptx{background-position:0px -140px;}
+.resources dt.jpg,
+.resources dt.jpeg{background-position:0px -210px;}
+.resources dt.gif{background-position:0px -280px;}
+.resources dt.png{background-position:0px -350px;}
+.resources dt.bmp{background-position:0px -628px;}
+.resources dt.txt{background-position:0px -420px;}
+.resources dt.rar,
+.resources dt.zip{background-position:0px -490px;}
+.resources dt.pdf{background-position:0px -560px;}
+.resources dt.swf{background-position:0px -695px;}
+.resources dl dd{visibility:hidden;height:20px;position:absolute;right:0;top:0;background:#fff;text-align:center;padding: 0 2px;}
+.resources dl.hover dd{visibility:visible;}
+.resources dl dd a{display:inline-block;width:20px;height:20px;margin-left:5px;background:url(../img/classroom/up_opt.png) no-repeat;}
+.resources .show{background-position:0 0;}
+.resources .show:hover{background-position:0 -20px;}
+.resources .down{background-position:-20px 0;}
+.resources .down:hover{background-position:-20px -20px;}
+.resources .lock{background-position:-40px 0;}
+.resources .lock:hover{background-position:-40px -20px;}
+.resources .unlock{background-position:-60px 0;}
+.resources .unlock:hover{background-position:-60px -20px;}
+.resources .del{background-position:-80px 0;}
+.resources .del:hover{background-position:-80px -20px;}
+.resources .up{position:relative;width:100%;display:block;margin:0 auto;height:36px;line-height:36px;font-size:18px;font-weight:bold;text-align:center;color:#e1ecfa;overflow:hidden;background:#387ede;}
+.resources .up:hover{background:#a0c3f4;color:#214b84;}
+.resources .disabledDown{opacity:.3;filter:alpha(opacity=30);}
+#uploadCont object{position:absolute;left:0;top:0;opacity:.1;filter:alpha(opacity=10);}
+
+
+.adminContainer{background:#f6f6f6;}
+.adminContainer .videoWrap{box-shadow:1px 1px 4px #ccc, -1px -1px 4px #ccc;}
+.adminContainer .videoCont{border:0;}
+.adminContainer .support{color:#647344}
+
+
+.rightVideoList .teaFollow{
+	background: #62972f url("../img/classroom/teaFollow.png") no-repeat scroll 23px center;
+}
+.rightVideoList .teaAll{
+	background: #62972f url("../img/classroom/teaAll.png") no-repeat scroll 23px center;
+}
+.rightVideoList .stuFollow{
+	background: #62972f url("../img/classroom/stuFollow.png") no-repeat scroll 23px center;
+}
+.rightVideoList .stuAll{
+	background: #62972f url("../img/classroom/stuAll.png") no-repeat scroll 23px center;
+}
+.rightVideoList .blackboard{
+	background: #62972f url("../img/classroom/blackboard.png") no-repeat scroll 23px center;
+}
+.rightVideoList .vga{
+	background: #62972f url("../img/classroom/vga.png") no-repeat scroll 23px center;
+}
+
+
+.rightVideoList .quite{
+	background: #507512 url("../img/classroom/quite.png") no-repeat scroll 50px center;
+	border: 4px solid #38681C;
+	text-indent: 94px;
+	font-size: 20px;
+	height: 54px;
+	line-height: 54px;
+	color: white;
+}
+#teachingBtn {
+	background: #62972f url("../img/classroom/teachingBtn.png") no-repeat scroll 14px center;
+}
+#teachingBtn.cur,#myVideoBtn.cur ,#homeWorkBtn.cur  {
+	background-color: #e57617;
+}
+#myVideoBtn {
+	background: #62972f url("../img/classroom/myVideoBtn.png") no-repeat scroll 14px center;
+}
+#homeWorkBtn {
+	background: #62972f url("../img/classroom/homeWorkBtn.png") no-repeat scroll 14px center;
+}
+.record-box {
+	display: inline;
+    float: right;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    width: 200px;
+    color: #73A53F;
+    margin-right: 60px;
+}
+.record-box .copy {
+	background: url(../img/remote/play1-1.png) no-repeat -1px 0;
+	background-size: 100%;
+}
+.record-box .copy.disabled {
+	background: url(../img/remote/play1-disable-1.png) no-repeat -1px 0;
+	background-size: 100%;
+}
+.record-box .copy.ing {
+	background: url(../img/remote/play2-1.gif) no-repeat -1px 0;
+	background-size: 100%;
+}
+.record-box .copy.pause {
+	background: url(../img/remote/play3-1.png) no-repeat -2px 0;
+	background-size: 100%;
+}
+.record-box .copy.pause.disabled {
+	background: url(../img/remote/play3-disable-1.png) no-repeat -2px 0;
+}
+.record-box .stop {
+	background: url(../img/remote/stop2-1.png) no-repeat 0 0;
+	background-size: 100%;
+}
+.record-box .stop.enable {
+	background: url(../img/remote/stop1-1.png) no-repeat 0 0;
+	background-size: 100%;
+}
+.record-box .stop.enable.disabled {
+	background: url(../img/remote/stop-disable-1.png) no-repeat -2px 0;
+}
+.record-box a {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+}
+.control-box-warp {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 8888;
+}
+
+
+.rightVideoList .videoMode0 {
+	background: url("../img/classroom/videoMode0.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode1 {
+	background: url("../img/classroom/videoMode1.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode2 {
+	background: url("../img/classroom/videoMode2.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode3 {
+	background: url("../img/classroom/videoMode3.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode0.use {
+	background: url("../img/classroom/videoMode0use.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode1.use {
+	background: url("../img/classroom/videoMode1use.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode2.use {
+	background: url("../img/classroom/videoMode2use.png") no-repeat scroll center center;
+}
+.rightVideoList .videoMode3.use {
+	background: url("../img/classroom/videoMode3use.png") no-repeat scroll center center;
+}
+	.videoWrap.sel .videoCont {
+		border: 4px solid white;
+	}
+	.picmode-cont {
+		font-size: 15px;
+	}
+	.pop-tab-nav {
+		height: 30px;
+		line-height: 30px;
+	}
+	.pop-tab-nav a {
+		background-color: #62972f;
+		color: white;
+		padding: 2px 15px;
+	}
+	.pop-tab-nav a.selected {
+		background-color: #e57617;
+		color: white;
+	}
+	.picmode-table {
+		width: 98%;
+		text-align: center;
+		border-top: 1px solid #C9D6C8;
+	}
+	.picmode-table thead {
+		background-color: #C0CFBF;
+	}
+	.picmode-table th{
+		color: #228E1B;
+	}
+	.picmode-table td,.picmode-table th{
+		border: 1px solid #91A88F;
+		height: 36px;
+		line-height: 36px;
+	}
+	.dialog-add-btn {
+		
+	}
+	.rightMenus {
+		width: 200px;
+		height: 700px;
+		float: right;
+	}
+	.leftVideos {
+		overflow: hidden;
+	}
+	.teaching .video4Mode, .interact .video4Mode{
+		display: block;
+	}
+	.teaching .rightMenus,.teaching .videoMenuMode,.interact .rightMenus,.interact .videoMenuMode {
+		display: none;
+	}
+	.myVideo .video4Mode,.winMode .video4Mode,.f2fMode .video4Mode{
+		display: none;
+	}
+	.myVideo .rightMenus,.myVideo .videoMenuMode,.winMode .rightMenus,.winMode .videoMenuMode,.f2fMode .rightMenus,.f2fMode .videoMenuMode  {
+		display: block;
+	}
+	
+	.pluginBox {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+	}
+	.myVideoRightVideo {
+		margin: 0 auto;
+    	width: 210px;
+	}
+	.winModeRightVideo,.f2fRightVideo {
+		margin: 0 auto;
+    	width: 182px;
+	}
+	.myVideoRightVideo li,.f2fRightVideo li{
+		height: 54px;
+		line-height: 54px;
+		font-size: 26px;
+		margin-top: 20px;
+		color: white;
+		background-color: #62972F;
+		border: 4px solid #558522;
+		text-indent: 73px;
+		width: 200px;
+		cursor: pointer;
+	}
+	.myVideoRightVideo li.use,.f2fRightVideo li.use{
+		background-color: #E47617;
+		border: 4px solid #C95C0B;
+	}
+	.myVideoRightVideo li.sel,.myVideoRightVideo li.use.sel,.f2fRightVideo li.sel,.f2fRightVideo li.use.sel{
+		border: 4px solid #FFF;
+	}
+	.winModeRightVideo li{
+		width: 173px;
+		height: 96px;
+		line-height: 96px;
+		background-color: #62972F;
+		border: 4px solid #558522;
+		cursor: pointer;
+		margin-top: 20px;
+	}
+	.winModeRightVideo li.use{
+		border: 4px solid #C95C0B;
+	}
+	.winModeRightVideo li.sel,.myVideoRightVideo li.use.sel{
+		border: 4px solid #FFF;
+	}
+	.setTalk {
+		text-align: center;
+		font-size: 16px;
+	}
+	.setTalk h2 {
+		color:#91b86d;
+		font-size: 22px;
+		font-weight: normal;
+	}
+	.setTalk-list {
+		margin-bottom: 10px;
+	}
+	.setTalk-list li{
+		height: 30px;
+		line-height: 30px;
+	}
+	.setTalk-list label,.setTalk-self label{
+		display: inline-block;
+		text-align: left;
+		width: 100px;
+	}
+	.setTalk-self label {
+		text-indent: 10px;
+	}
+	.setTalk-list .room-type {
+		width: 70px;
+		text-align: right;
+	}
+	.setTalk-list .room-title{
+		width: 160px;
+		text-align: left;
+		font-weight: 700;
+		color: #000;
+	}
+	.setTalk-self {
+	    border-top: 1px solid #72a53e;
+	    height: 35px;
+	    line-height: 35px;
+	    overflow: hidden;
+	    padding-top: 10px;
+	    
+	}
+	.setTalk-self em {
+		font-weight: 700;
+		color: #91b86d;
+	    font-size: 16px;
+	    font-style:normal
+	}
+	.setTalk-mess {
+		color: #CECECE;
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.videoContBtn {
+		position: absolute;
+		display: block;
+		cursor: pointer;
+	}
+	.publish-list {
+		position: absolute;
+		right: 5px;
+		bottom: 15px;
+		background-color: red;
+		z-index: 100;
+	}
+	.publish-list select{
+		width: 100%;
+	}
+	.publish-item {
+		position: relative;
+		width: 1px;
+		height: 1px;
+		border: 1px solid #55792e;
+    	box-shadow: 2px 2px 5px #517c25, -2px -2px 5px #517c25;
+	}
+	.publish-item-cover {
+		position:absolute;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		opacity: 0;
+		top: 0;
+		filter:alpha(opacity=0);
+	}
+	.myVideo2 .publish-list{
+		display: block;
+	}
+		
+	.myVideo2 .rightMenus{
+		display: none;
+	}
+
+	#homeWorkIframe {
+		position: absolute;
+		display: none;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 2000;
+	}
+	.dialog_Head {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	
+.upInfo {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #eee;
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}

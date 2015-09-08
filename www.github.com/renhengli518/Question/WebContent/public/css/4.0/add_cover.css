@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.borderBox {
+  padding: 30px 35px 50px 35px;
+}
+.title {
+  font-size: 16px;
+  color: #222;
+  padding-left: 9px;
+}
+.c666 {
+  color: #666;
+}
+.commonUL li {
+  margin-top: 6px;
+  line-height: 2.4;
+}
+.text b{font-weight:normal;}
+.green {
+  color: #2dbe60;
+}
+.ulWithLine {
+  border-bottom: 1px solid #ddd;
+}
+.pl35{padding-left:35px;}
+.h72{height:72px;}
+.c888 {
+  color: #888;
+}
